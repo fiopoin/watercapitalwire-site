@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="{{ csp|safe }}">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title>{% if archived %}{{ d.lead.headline }} | Water Capital Wire{% else %}Water Capital Wire: Water Business News, Capital, Technology and Water Security{% endif %}</title>
+<meta name="description" content="{{ desc }}">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="{{ url }}">
+{% if cfg.google_site_verification %}<meta name="google-site-verification" content="{{ cfg.google_site_verification }}">{% endif %}
+{% if cfg.bing_site_verification %}<meta name="msvalidate.01" content="{{ cfg.bing_site_verification }}">{% endif %}
+<meta name="theme-color" content="#0b1a2b">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Water Capital Wire">
+<meta property="og:title" content="{{ d.lead.headline }}">
+<meta property="og:description" content="{{ desc }}">
+<meta property="og:url" content="{{ url }}">
+<meta property="og:image" content="{{ site }}social/{{ d.date }}.png">
+<meta property="og:image:width" content="1080"><meta property="og:image:height" content="1350">
+<meta property="article:published_time" content="{{ published }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ d.lead.headline }}">
+<meta name="twitter:description" content="{{ desc }}">
+<meta name="twitter:image" content="{{ site }}social/{{ d.date }}.png">
+<link rel="icon" type="image/svg+xml" href="{{ root }}brand/wcw-icon.svg">
+<link rel="apple-touch-icon" href="{{ root }}brand/wcw-icon-180.png">
+<link rel="alternate" type="application/rss+xml" title="Water Capital Wire" href="{{ root }}feed.xml">
+<link rel="preload" href="{{ root }}assets/fonts/newsreader-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{{ root }}assets/fonts/archivo-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="{{ root }}assets/style.css?v={{ v }}">
+{% if cfg.ga_id %}<script async src="https://www.googletagmanager.com/gtag/js?id={{ cfg.ga_id }}"></script><script src="{{ root }}assets/ga.js?v={{ v }}" data-id="{{ cfg.ga_id }}"></script>{% endif %}
+<script type="application/ld+json">{{ ld|safe }}</script>
+</head>
+<body>
+{% include "header.html.j2" %}
+<div class="next" aria-label="Coming up">
+ <div class="wrap next-in">{% for e in d.events[:5] %}<div><span>{{ e.name }}</span> <strong{% if e.start %} data-start="{{ e.start }}"{% endif %}>{{ e.when }}{% if e.year != d.date[:4] %}, {{ e.year }}{% endif %}</strong></div>{% endfor %}</div>
+</div>
+
+<main id="main">
+<section id="today" class="wrap lead">
+ <article class="story">
+  <p class="meta">{{ d.date_long }}<span>Edition {{ d.edition }}</span>{% if archived %}<a href="{{ root }}">Today's edition</a>{% endif %}</p>
+  <p class="tag">{{ d.lead.kicker }}</p>
+  <h1>{{ d.lead.headline }}</h1>
+  <p class="dek">{{ d.lead.dek }}</p>
+  {% for p in d.lead.body %}<p>{{ p }}</p>{% endfor %}
+  <p class="src">Sources: {% for s in d.lead.sources %}<a href="{{ s.url }}" rel="noopener">{{ s.name }}</a>{% if not loop.last %}; {% endif %}{% endfor %}</p>
+ </article>
+ <aside class="cycle" aria-label="Down the pipe">
+  <h2>Down the pipe</h2>
+  <p class="cyc-sub">What this story means at each stage of the water cycle</p>
+  {% for k, label, c in [("source","Source","blue"),("treat","Treat","blue"),("use","Use","purple"),("reuse","Reuse","purple"),("discharge","Discharge","green")] %}
+  <div class="stop c-{{ c }}{{ ' on' if k in d.lead.stages else '' }}"><h3>{{ label }}</h3><p>{{ d.lead.pipe[k] }}</p></div>
+  {% endfor %}
+ </aside>
+</section>
+<section class="wrap useit" aria-label="Use it">
+ <h2>Use it</h2>
+ <dl>{% for u in d.lead.use %}<div><dt>{{ u.who }}</dt><dd>{{ u.text }}</dd></div>{% endfor %}</dl>
+</section>
+
+<section class="band" id="briefs">
+ <div class="wrap">
+  <div class="head"><h2>Across the water economy</h2><p>The deals, contracts and rules that moved since the last edition.</p></div>
+  <div class="briefs">
+  {% for b in d.briefs %}
+  <article class="brief" id="{{ b.id }}">
+   <p class="bt"><span class="sec">{{ b.sector }}</span><span>{{ b.region }}</span></p>
+   <h3>{{ b.headline }}</h3>
+   <p>{{ b.text }}</p>
+   <p class="why"><b>Why it matters.</b> {{ b.why }}</p>
+   <p class="src">Sources: {% for s in b.sources %}<a href="{{ s.url }}" rel="noopener">{{ s.name }}</a>{% if not loop.last %}; {% endif %}{% endfor %}</p>
+  </article>
+  {% endfor %}
+  </div>
+ </div>
+</section>
+
+{% set sp = d.spotlight %}
+<section id="spotlight" class="band tint">
+ <div class="wrap">
+  <div class="head"><h2>This week's spotlight</h2><p>A company on Monday, a leader and a supplier on Wednesday, an innovation on Thursday, an investor on Friday. Built from filings and company statements.</p></div>
+  <div class="grid2">
+  {% for key, label, c in [("company","Company of the week","blue"),("leader","Leader of the week","purple"),("innovation","Innovation of the week","orange"),("investor","Investor of the week","green")] %}
+  {% set x = sp[key] %}
+  <article class="card c-{{ c }}" id="{{ key }}">
+   <p class="k">{{ label }}<span>{{ x.week_of }}</span></p>
+   <h3>{% if key == "leader" %}{{ x.name }}<small>{{ x.role }}</small>{% else %}{{ x.headline }}{% endif %}</h3>
+   <div class="figs">{% for f in x.figs %}<div><strong>{{ f.v }}</strong>{{ f.l }}</div>{% endfor %}</div>
+   <p>{{ x.body }}</p>
+   <p class="src">Sources: {% for s in x.sources %}<a href="{{ s.url }}" rel="noopener">{{ s.name }}</a>{% if not loop.last %}; {% endif %}{% endfor %}</p>
+  </article>
+  {% endfor %}
+  </div>
+  {% set su = sp.supplier %}
+  <div class="sup" id="supplier">
+   <article>
+    <p class="k c-blue">Supplier of the week<span>{{ su.week_of }}</span></p>
+    <p class="supk">{{ su.kicker }}</p>
+    <h3>{{ su.headline }}</h3>
+    {% for p in su.body %}<p>{{ p }}</p>{% endfor %}
+    <p class="src">Sources: {% for s in su.sources %}<a href="{{ s.url }}" rel="noopener">{{ s.name }}</a>{% if not loop.last %}; {% endif %}{% endfor %}</p>
+   </article>
+   <div class="supfig">
+    <div class="figs">{% for f in su.figs %}<div><strong>{{ f.v }}</strong>{{ f.l }}</div>{% endfor %}</div>
+    {% if su.split %}{% set tot = su.split|sum(attribute='v') %}
+    <p class="sl">Where the growth came from, points of {{ tot }}</p>
+    <div class="stackbar">{% for s in su.split %}<span class="s{{ loop.index }}" style="flex:{{ s.v }}">{{ s.l }} {{ s.v }}</span>{% endfor %}</div>
+    {% endif %}
+    <div class="why2"><b>Why it matters for buyers</b><p>{{ su.why }}</p></div>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section id="capital" class="band">
+ <div class="wrap">
+  <div class="head"><h2>Capital desk: who is buying water</h2><p>{{ d.capital.intro }} <a href="{{ d.capital.intro_source.url }}" rel="noopener">{{ d.capital.intro_source.name }}</a></p></div>
+  <div class="two">
+   <div class="scroll"><table class="stack">
+    <thead><tr><th scope="col">Date</th><th scope="col">Deal</th><th scope="col">Buyer or investor</th><th scope="col" class="r">Value</th></tr></thead>
+    <tbody>{% for x in d.capital.deals %}<tr><td class="nowrap" data-l="Date">{{ x.date }}</td><td data-l="Deal"><a href="{{ x.source.url }}" rel="noopener">{{ x.deal }}</a></td><td data-l="Buyer">{{ x.who }}</td><td class="r nowrap" data-l="Value">{{ x.value }}</td></tr>{% endfor %}</tbody>
+   </table></div>
+   <div>
+    <h3 class="h3s">Firms we track</h3>
+    <div class="firms">{% for f in d.capital.firms %}<div class="firm {{ 'pe' if f.type == 'Private equity' else 'vc' }}"><b>{{ f.name }}</b><span>{{ f.type }}. {{ f.line }}</span></div>{% endfor %}</div>
+   </div>
+  </div>
+ </div>
+</section>
+
+{% set at = d.atlas %}
+<section id="atlas" class="band atlas">
+ <div class="wrap">
+  <div class="head"><h2>The water atlas</h2><p>Where water is short, where demand is going, what the infrastructure bill looks like and which sectors are driving new demand. Updated as new data is published.</p></div>
+
+  <div class="at-row">
+   <div>
+    <h3>{{ at.stress.title }}</h3>
+    <p>{{ at.stress.intro }}</p>
+    <p class="sl">{{ at.stress.regions_label }}</p>
+    <div class="bars">{% for r in at.stress.regions %}<div class="bar"><span class="bl">{{ r.name }}</span><span class="bt2"><i style="width:{{ r.pct }}%"></i></span><span class="bv">{{ r.pct }}%</span><span class="bn">{{ r.note }}</span></div>{% endfor %}</div>
+    <p class="hot">{{ at.stress.hotspots }}</p>
+    <p class="src">Sources: {% for s in at.stress.sources %}<a href="{{ s.url }}" rel="noopener">{{ s.name }}</a>{% if not loop.last %}; {% endif %}{% endfor %}</p>
+   </div>
+   <div class="factcol">{% for f in at.stress.facts %}<div class="fact"><strong>{{ f.v }}</strong><span>{{ f.l }}</span></div>{% endfor %}</div>
+  </div>
+
+  <div class="at-row">
+   <div>
+    <h3>{{ at.demand.title }}</h3>
+    <p>{{ at.demand.intro }}</p>
+    <p class="sl">World population, billions</p>
+    {% set pmax = at.demand['pop']|map(attribute='v')|max %}
+    <div class="pop">{% for p in at.demand['pop'] %}<div class="pc"><span class="pv">{{ p.v }}</span><span class="pb" style="height:{{ (p.v / pmax * 100)|round(1) }}%"></span><span class="py">{{ p.y }}</span></div>{% endfor %}</div>
+    <p class="src">Sources: {% for s in at.demand.sources %}<a href="{{ s.url }}" rel="noopener">{{ s.name }}</a>{% if not loop.last %}; {% endif %}{% endfor %}</p>
+   </div>
+   <div class="factcol">{% for f in at.demand.facts %}<div class="fact"><strong>{{ f.v }}</strong><span>{{ f.l }}</span></div>{% endfor %}</div>
+  </div>
+
+  <h3 class="h3s">{{ at.infra.title }}</h3>
+  <div class="infra">{% for f in at.infra['items'] %}<div><strong>{{ f.v }}</strong><span>{{ f.l }}</span><a href="{{ f.s.url }}" rel="noopener">{{ f.s.name }}</a></div>{% endfor %}</div>
+  <p class="note">{{ at.infra.note }}</p>
+
+  <h3 class="h3s" id="sectors">Emerging water sectors</h3>
+  <div class="sectors">{% for s in at.sectors %}<div><p class="sn">{{ s.name }}</p><strong>{{ s.fig }}</strong><span class="sfl">{{ s.l }}</span><p>{{ s.line }}</p><a href="{{ s.s.url }}" rel="noopener">{{ s.s.name }}</a></div>{% endfor %}</div>
+
+  <h3 class="h3s" id="security">Water security</h3>
+  <div class="secu">{% for s in at.security %}<div><h4>{{ s.headline }}</h4><p>{{ s.text }}</p><a href="{{ s.s.url }}" rel="noopener">{{ s.s.name }}</a></div>{% endfor %}</div>
+ </div>
+</section>
+
+<section id="markets" class="band tint">
+ <div class="wrap">
+  <div class="head"><h2>Water equities watchlist</h2><p>The listed companies and funds this desk follows, with where each sits in the water cycle and the latest reason it is on our radar. Not investment advice.</p></div>
+  <div class="scroll"><table class="stack">
+   <thead><tr><th scope="col">Ticker</th><th scope="col">Company</th><th scope="col">Where it sits</th><th scope="col">On our radar</th></tr></thead>
+   <tbody>{% for s in d.watchlist %}<tr><td class="nowrap" data-l="Ticker"><b>{{ s.ticker }}</b></td><td data-l="Company">{{ s.name }}</td><td data-l="Sits">{{ s.seg }}</td><td data-l="Radar">{{ s.note }}</td></tr>{% endfor %}</tbody>
+  </table></div>
+ </div>
+</section>
+
+<section id="calculator" class="band">
+ <div class="wrap">
+  <div class="head"><h2>Project decision calculator</h2><p>Levelized cost of water, net present value, payback and IRR for a treatment, reuse or desalination project. Pick a starting case, then change the inputs.</p></div>
+  <div class="calc">
+   <div>
+    <div class="presets" id="presets"><button type="button" data-p="0" class="on">Industrial reuse</button><button type="button" data-p="1">Seawater desalination</button><button type="button" data-p="2">Produced water recycling</button><button type="button" data-p="3">PFAS upgrade</button></div>
+    <div class="ctl">
+     <label for="unit">Volume unit<select id="unit"><option value="m3">Cubic meters</option><option value="kgal">Thousand US gallons</option><option value="bbl">Barrels</option></select></label>
+     <label for="cap">Capacity per day<input id="cap" type="number" min="0" step="any" value="5000"></label>
+     <label for="avail">Availability, %<input id="avail" type="number" min="0" max="100" step="any" value="92"></label>
+     <label for="capex">Capital cost, $ million<input id="capex" type="number" min="0" step="any" value="12"></label>
+     <label for="opex">Operating cost per unit, $<input id="opex" type="number" min="0" step="any" value="0.6"></label>
+     <label for="val">Value per unit, $<input id="val" type="number" min="0" step="any" value="1.4"></label>
+     <label for="life">Project life, years<input id="life" type="number" min="1" step="1" value="20"></label>
+     <label for="rate">Discount rate, %<input id="rate" type="number" min="0" step="any" value="8"></label>
+    </div>
+    <p class="note">Value per unit is what each unit is worth to you: avoided purchase, avoided disposal, a tariff or a compliance cost. Starting cases are illustrative inputs, not benchmarks.</p>
+   </div>
+   <div class="out" aria-live="polite">
+    <div class="big">
+     <div class="main"><strong id="lcow">$1.33</strong>Levelized cost per <span class="u">m³</span></div>
+     <div><strong id="npv">$1.2M</strong>Net present value</div>
+     <div><strong id="pay">8.9 yrs</strong>Simple payback</div>
+     <div><strong id="irr">9.3%</strong>IRR</div>
+    </div>
+    <div class="fig" id="cf"><svg id="cfs" role="img" aria-label="Cumulative cash position by year"></svg></div>
+    <p class="verdict" id="verdict"></p>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section id="events" class="band tint">
+ <div class="wrap">
+  <div class="head"><h2>The water calendar</h2><p>The meetings where capital, utilities and technology buyers are in one place. Confirm dates with each organizer before booking travel.</p></div>
+  <ul class="events">{% for e in d.events %}<li><div class="d">{{ e.when }}<small>{{ e.year }}</small></div><div><a href="{{ e.url }}" rel="noopener"><b>{{ e.name }}</b></a><span>{{ e.where }}</span></div></li>{% endfor %}</ul>
+ </div>
+</section>
+
+<section id="pulse" class="band">
+ <div class="wrap">
+  <div class="head"><h2>Water Pulse</h2><p>Six questions, one minute. See how exposed your site or portfolio is to water risk, then tell us what you want covered next.</p></div>
+  <div class="pulse">
+   <div id="quiz">
+    {% for q in ["Do you know your water use per unit of output at each site?","Could a drought or allocation cut curtail your supply in the next five years?","Are your discharge limits tightening, for PFAS, nutrients or salinity?","Do you reuse any of your process water today?","Has a water problem ever stopped or slowed production?","Does finance price water at its full cost: supply, treatment and discharge?"] %}
+    <div class="q"><p>{{ loop.index }}. {{ q }}</p><div class="opts" data-q="{{ loop.index0 }}"><button type="button" data-a="0">Yes</button><button type="button" data-a="1">No</button><button type="button" data-a="2">Not sure</button></div></div>
+    {% endfor %}
+   </div>
+   <div class="side">
+    <div class="score" id="score"><span>Your water risk read</span><strong id="tier">Answer to see</strong><span id="tiertext">Each answer moves the score.</span></div>
+    <div class="poll">
+     <h3>This week's question: where does the next dollar of water capital go in 2027?</h3>
+     <div id="poll">{% for o in ["Water reuse and recycling","Desalination","Smart metering and digital","PFAS and contaminant removal","Data center and chip fab water","Utility consolidation"] %}<button type="button">{{ o }}</button>{% endfor %}</div>
+     <p class="small" id="pollmsg">Pick one. Your answer stays on this device.</p>
+    </div>
+    <form id="fb" class="fb" action="#" novalidate data-mail="{{ cfg.contact_email }}">
+     <label for="fbt">What should this desk cover next?</label>
+     <textarea id="fbt" rows="3" placeholder="A company, a deal, a technology, a question"></textarea>
+     <button class="go" type="submit">Email it to the editors</button>
+     <p class="small" id="fbmsg">Opens your email app, addressed to {{ cfg.contact_email }}.</p>
+    </form>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section class="band tint">
+ <div class="wrap">
+  <div class="head"><h2>Publishing rhythm</h2><p>What readers can count on, and when.</p></div>
+  <div class="rhythm">
+   <div class="c-blue"><b>Every day</b><span>Lead story traced down the pipe, briefs across the water economy, capital desk</span></div>
+   <div class="c-blue"><b>Monday</b><span>Company of the week</span></div>
+   <div class="c-purple"><b>Wednesday</b><span>Leader of the week and supplier of the week</span></div>
+   <div class="c-orange"><b>Thursday</b><span>Innovation of the week</span></div>
+   <div class="c-green"><b>Friday</b><span>Investor of the week and the poll question</span></div>
+   <div class="c-green"><b>Monthly</b><span>Atlas data, events and regulation roundup</span></div>
+  </div>
+ </div>
+</section>
+</main>
+{% include "footer.html.j2" %}
+<script src="{{ root }}assets/app.js?v={{ v }}" defer></script>
+</body>
+</html>

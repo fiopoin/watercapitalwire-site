@@ -1,0 +1,19 @@
+<footer class="foot">
+ <div class="wrap cols">
+  <div>
+   <a class="logo" href="{{ root }}" aria-label="Water Capital Wire home"><img src="{{ root }}brand/wcw-mark-white.svg" alt="" width="124" height="34"><span>Water Capital Wire</span></a>
+   <p>Water Capital Wire is a free daily read on the business of water for managers, investors and operators: capital, companies, technology, infrastructure and security across every industry that runs on water. Every fact is sourced and dated. General information, not investment, legal or tax advice.</p>
+   <nav aria-label="Footer"><a href="{{ root }}method.html">How we work</a><a href="{{ root }}archive/">Past editions</a><a href="{{ root }}feed.xml">RSS</a><a href="{{ root }}privacy.html">Privacy</a></nav>
+  </div>
+  <div>
+   <h2>Sister publications</h2>
+   <a href="https://fiopoin.com/">FIOPO Intelligence</a>
+   <a href="https://carbonenergynexus.com/">Carbon Energy Nexus</a>
+   <a href="https://uticamidstream.com/">Utica Midstream</a>
+  </div>
+  <div>
+   {% if cfg and cfg.follow %}<h2>Follow us</h2><ul class="follow">{% for f in cfg.follow %}<li><a href="{{ f.url }}" rel="noopener">{{ f.name }}</a></li>{% endfor %}</ul>{% else %}<h2>Follow the wire</h2><p>Three posts a day on the networks, starting soon. Until then, the <a href="{{ root }}feed.xml">RSS feed</a> carries every edition.</p>{% endif %}
+   <p class="small">watercapitalwire.com</p>
+  </div>
+ </div>
+</footer>
