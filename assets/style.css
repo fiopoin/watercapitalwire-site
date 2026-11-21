@@ -44,7 +44,7 @@ p{margin:0 0 12px}
 .nav a:hover{opacity:1;text-decoration:underline;color:#fff}
 .pipe{height:6px;background:linear-gradient(90deg,var(--blue2) 0 40%,var(--purple) 40% 70%,var(--green2) 70%)}
 .next{background:var(--panel);border-bottom:1px solid var(--line);font-size:14px}
-.next-in{display:flex;gap:28px;overflow-x:auto;padding-block:9px;white-space:nowrap}
+.next-in{display:flex;gap:28px;overflow-x:auto;scrollbar-width:none;padding-block:9px;white-space:nowrap}
 .next-in>div{flex:none}.next span{color:var(--mute)}
 
 /* lead */
@@ -261,3 +261,4 @@ button.on,button.go{background:var(--blue);border-color:var(--blue);color:#fff}
 .pws{font-style:normal;font-size:11px;font-weight:800;letter-spacing:.05em;background:var(--green2);color:#0b1a2b;border-radius:4px;padding:1px 6px;margin-left:8px;vertical-align:2px}
 @media (max-width:900px){.pl{grid-template-columns:1fr;gap:20px}.events{grid-template-rows:none;grid-auto-flow:row}}
 @media (max-width:600px){.place .figs.three{grid-template-columns:1fr 1fr 1fr;gap:8px}.place .figs b{font-size:19px}}
+.next-in::-webkit-scrollbar{display:none}
