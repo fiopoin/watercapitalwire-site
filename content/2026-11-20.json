@@ -369,48 +369,41 @@
     }
    }
   ],
-  "firms": [
-   {
-    "name": "Burnt Island Ventures",
-    "type": "Venture",
-    "line": "Early stage, water only, New York"
-   },
-   {
-    "name": "XPV Water Partners",
-    "type": "Venture",
-    "line": "Growth investor and company builder, Toronto"
-   },
-   {
-    "name": "Emerald Technology Ventures",
-    "type": "Venture",
-    "line": "Industrial technology; nearly 20 water companies backed"
-   },
-   {
-    "name": "The Westly Group",
-    "type": "Venture",
-    "line": "Venture fund with Xylem as a limited partner"
-   },
-   {
-    "name": "EQT",
-    "type": "Private equity",
-    "line": "Infrastructure and buyout; Seven Seas, Kelda stake"
-   },
-   {
-    "name": "The Sterling Group",
-    "type": "Private equity",
-    "line": "Operations focused buyout; Scruggs platform"
-   },
-   {
-    "name": "Warren Equity Partners",
-    "type": "Private equity",
-    "line": "Infrastructure services; USG Water Solutions"
-   },
-   {
-    "name": "Apollo",
-    "type": "Private equity",
-    "line": "Texas water infrastructure through Maverick"
-   }
-  ]
+  "firm": {
+   "name": "XPV Water Partners",
+   "type": "Growth private equity, water only",
+   "base": "Toronto",
+   "headline": "XPV is buying the unglamorous middle of the water economy",
+   "figs": [
+    {
+     "v": "$1B+",
+     "l": "Assets under management"
+    },
+    {
+     "v": "$625M+",
+     "l": "Raised for Fund III and Extended Value Fund"
+    }
+   ],
+   "body": "XPV invests only in water and builds platforms through add-on acquisitions. In 2026 it bought Weisinger, a groundwater and well services provider for Texas municipal and industrial clients, formed the ocean technology platform OceanSight, and added Sound Metrics and C&C Ground Water Services. In June it exited Axius Water alongside co-owner KKR. Founding partner David Henderson leads the firm.",
+   "sources": [
+    {
+     "name": "The Water Network",
+     "url": "https://thewaternetwork.com/article-FfV/xpv-water-partners-surpasses-us-1-billion-in-assets-under-management-NK8nG1gCt3irsElIuFQo0Q"
+    },
+    {
+     "name": "Global AgInvesting",
+     "url": "https://globalaginvesting.com/?p=10841"
+    },
+    {
+     "name": "Smart Water Magazine",
+     "url": "https://smartwatermagazine.com/news/smart-water-magazine/xpv-water-partners-invests-weisinger-incorporated-drive-growth-water"
+    },
+    {
+     "name": "CT Acquisitions",
+     "url": "https://ctacquisitions.com/directory/xpv-water-partners/"
+    }
+   ]
+  }
  },
  "watchlist": [
   {
@@ -720,7 +713,8 @@
    "year": "2027",
    "name": "Produced Water Society 37th Annual Conference",
    "where": "Houston Marriott Sugar Land, Texas",
-   "url": "https://producedwatersociety.com/annual-events/"
+   "url": "https://producedwatersociety.com/annual-events/",
+   "pws": true
   },
   {
    "when": "Mar 9 to 12",
@@ -746,9 +740,18 @@
   {
    "when": "Apr 11 to 15",
    "year": "2027",
-   "name": "Produced Water Society, Middle East",
-   "where": "Dammam, Saudi Arabia",
-   "url": "https://producedwatersociety.com/calendar/"
+   "name": "Produced Water Society, Middle East Edition",
+   "where": "Ad'darah, Dammam, Saudi Arabia",
+   "url": "https://producedwatersociety.com/calendar/",
+   "pws": true
+  },
+  {
+   "when": "Apr 19 to 21",
+   "year": "2027",
+   "name": "Produced Water Society 4th Annual African Conference",
+   "where": "Eko Hotel, Lagos, Nigeria",
+   "url": "https://producedwatersociety.com/4th-annual-african-conference/",
+   "pws": true
   },
   {
    "when": "May 24 to 26",
@@ -756,6 +759,14 @@
    "name": "Global Water Summit",
    "where": "Prague Hilton Atrium, Czech Republic",
    "url": "https://www.watermeetsmoney.com/venue"
+  },
+  {
+   "when": "Jun 1 to 2",
+   "year": "2027",
+   "name": "Produced Water Society, UK Edition",
+   "where": "Ardoe House Hotel and Spa, Aberdeen, Scotland",
+   "url": "https://producedwatersociety.com/calendar/",
+   "pws": true
   },
   {
    "when": "Jun 13 to 16",
@@ -769,7 +780,8 @@
    "year": "2027",
    "name": "Produced Water Society, Permian Basin",
    "where": "Bush Convention Center, Midland, Texas",
-   "url": "https://producedwatersociety.com/calendar/"
+   "url": "https://producedwatersociety.com/calendar/",
+   "pws": true
   },
   {
    "when": "Late August",
@@ -777,6 +789,14 @@
    "name": "World Water Week",
    "where": "Stockholm; theme: water for human and planetary health",
    "url": "https://siwi.org/news/world-water-week-2026-what-five-days-in-stockholm-told-us-about-the-future-of-water"
+  },
+  {
+   "when": "Sep 16 to 17",
+   "year": "2027",
+   "name": "Produced Water Society, Argentina Edition",
+   "where": "Neuquén and Buenos Aires, Argentina",
+   "url": "https://producedwatersociety.com/calendar/",
+   "pws": true
   },
   {
    "when": "Sep 25 to 29",
@@ -791,6 +811,22 @@
    "name": "IWRA XX World Water Congress",
    "where": "Istanbul, Türkiye",
    "url": "https://www.iwra.org/iwra-xx-world-water-congress-2027"
+  },
+  {
+   "when": "November",
+   "year": "2027",
+   "name": "Produced Water Society, Asia Edition",
+   "where": "Host country and venue to be announced",
+   "url": "https://producedwatersociety.com/calendar/",
+   "pws": true
+  },
+  {
+   "when": "Late Nov or Dec",
+   "year": "2027",
+   "name": "Produced Water Society, UAE Edition",
+   "where": "City, venue and dates to be announced",
+   "url": "https://producedwatersociety.com/calendar/",
+   "pws": true
   }
  ],
  "social": {
@@ -827,5 +863,54 @@
    "watch": "More operations contracts on existing Gulf plants.",
    "caption": "Veolia won the design contract for the 410,000 cubic meter a day Al Hamriyah desalination plant in Sharjah and a five-year operations contract for Oman's Al Asilah plant, together worth nearly €200 million.\n\nMore: watercapitalwire.com\n\n#Desalination #Water #MiddleEast #WaterSecurity #Infrastructure"
   }
+ },
+ "place": {
+  "week_of": "Week of November 16",
+  "name": "Marina Barrage",
+  "location": "Singapore",
+  "art": "marina-barrage.svg",
+  "headline": "A dam in the middle of a city that people come to picnic on",
+  "body": [
+   "Marina Barrage closes the 350 meter wide Marina Channel with nine steel crest gates, keeping seawater out and turning the bay into Singapore's 15th reservoir and the first in the city center. Its catchment of about 10,000 hectares is the largest in the country, and the same structure protects low lying downtown streets from flooding.",
+   "The pump house is topped by a grass roof of about 11,000 square meters, open around the clock, where people fly kites, picnic and watch the skyline beside a solar installation. National water agency PUB counted close to 15 million visitors in the barrage's first ten years."
+  ],
+  "facts": [
+   {
+    "v": "2008",
+    "l": "Opened, October 31"
+   },
+   {
+    "v": "10,000 ha",
+    "l": "Catchment, Singapore's largest"
+   },
+   {
+    "v": "9",
+    "l": "Crest gates, each 26.5 m wide"
+   }
+  ],
+  "visit": "Free shuttle bus from Marina Bay MRT station. The green roof and public areas are open 24 hours.",
+  "why": "It is the clearest example anywhere of water infrastructure that pays a second dividend: supply, flood control and a public space in one asset.",
+  "sources": [
+   {
+    "name": "PUB",
+    "url": "https://pub.gov.sg/public/places-of-interest/marina-barrage"
+   },
+   {
+    "name": "National Library Board Singapore",
+    "url": "https://eresources.nlb.gov.sg/infopedia/articles/SIP_1388_2008-11-22.html"
+   },
+   {
+    "name": "National Archives of Singapore",
+    "url": "https://www.nas.gov.sg/archivesonline/data/pdfdoc/20180213011/MB10%20media%20release.pdf"
+   },
+   {
+    "name": "PUB visitor FAQ",
+    "url": "https://info.pub.gov.sg/marinabarrage/faqs"
+   },
+   {
+    "name": "Our Future Water",
+    "url": "https://medium.com/our-future-water/singapores-marina-barrage-turns-10-88a44dc69b4"
+   }
+  ]
  }
 }

@@ -19,14 +19,15 @@ spotlight{company, leader, supplier, innovation, investor}:
   company/innovation/investor{week_of, name, headline, figs[2]{v,l}, body, sources[]};
   leader{week_of, name, role, figs[2], body, sources[]};
   supplier{week_of, name, kicker (what they sell), headline, figs[2], body[3], split[]{l,v} optional, why, sources[]}.
-capital{intro, intro_source{name,url}, deals[6 to 8]{date, deal, who, value, source}, firms[]{name, type Venture|Private equity|Infrastructure, line}},
-watchlist[]{ticker, name, seg, note},
+capital{intro, intro_source{name,url}, deals[6 to 8]{date, deal, who, value, source}, firm{name, type, base, headline, figs[2]{v,l}, body, sources[]} (one firm in focus)},
+watchlist[]{ticker, name, seg, note} (feeds the rolling ticker under the masthead; keep notes under about 60 chars),
+place{week_of, name, location, art (file in assets/art), headline, body[2], facts[3]{v,l}, visit, why, sources[]},
 atlas{stress{title, intro, regions_label, regions[]{name,pct,note}, facts[3]{v,l}, hotspots, sources[]},
       demand{title, intro, pop[]{y,v}, facts[3]{v,l}, sources[]},
       infra{title, items[4]{v,l,s{name,url}}, note},
       sectors[4]{name, fig, l, line, s},
       security[3]{headline, text, s}},
-events[]{when, year, name, where, url, start? (ISO date, only on the first event for the countdown)},
+events[]{when, year, name, where, url, pws? (true for Produced Water Society events), start? (ISO date, only on the first event for the countdown)},
 social{kicker "Morning: the wire", headline, points[3], watch, caption},
 social_slots{afternoon{kicker "Afternoon: the capital", ...}, evening{kicker "Evening: the world", ...}}.
 
@@ -34,10 +35,12 @@ social_slots{afternoon{kicker "Afternoon: the capital", ...}, evening{kicker "Ev
 - Coverage: water across all industries, investment and capital (M&A, PE, VC, project finance, utility rate cases), innovation (academia and companies), applications (municipal, industrial, energy, agriculture, mining, chips, data centers, produced water), challenges (scarcity, PFAS and contaminants, aging pipes, workforce, floods and drought), water equities and funds, regulation (EPA, state agencies, EU, Gulf and Asian water authorities), desalination and reuse, water security and transboundary water. Global, with a US decision maker in mind.
 - Prefer the most consequential and most read stories among equally solid ones. Every fact needs a dated, linked, reliable source. Never invent or estimate a number; leave out anything you cannot confirm. Paraphrase; at most one short quote per source.
 - Spotlight cadence: company changes on Mondays, leader and supplier on Wednesdays, innovation on Thursdays, investor on Fridays (or the first edition after). Keep each unchanged until its day. Supplier is one chemicals or technology provider profiled in depth, never a list of names. Profiles come from public, sourced facts; no photos of people.
+- Firm in focus (capital.firm): one VC, PE or infrastructure investor profiled in depth, changes on Fridays with the investor spotlight; never a list.
+- Water place of the week (place): a notable water site, landmark or water tourism destination anywhere in the world; changes on Mondays. Art is an original SVG illustration drawn by us in assets/art (never copied photos). Facts from the operator or government sources.
 - Capital desk: newest deals first; keep 6 to 8; drop items older than about six months when newer ones exist.
 - Watchlist: keep the core names; update the "on our radar" note when news moves a name. Show prices only if a source gives a dated close (the template does not show prices yet).
 - Atlas: evergreen reference data. Refresh a figure only when its source publishes new data (WRI Aqueduct, UN WWDR and WPP, EPA needs surveys, World Bank, IDRA, LBNL). Review monthly.
-- Events: keep upcoming water events in date order, drop past ones, add new ones when announced (official site first). Keep Produced Water Society events listed. Put the ISO start date on the first event for the countdown.
+- Events: keep upcoming water events in date order, drop past ones, add new ones when announced (official site first). List every Produced Water Society event published on producedwatersociety.com/calendar (all regional editions) with pws: true. Put the ISO start date on the first event for the countdown.
 - No em or en dashes as punctuation. Politically neutral. General information, not investment advice.
 - Social: headline under 60 chars, points under 45, caption under 600 with 4 to 6 hashtags; caption first paragraph is the page description (under 300 chars). Morning post is the lead story for US decision makers; afternoon is the capital or company story; evening is the global story for the Middle East and Asia waking up.
 

@@ -35,6 +35,10 @@
 </head>
 <body>
 {% include "header.html.j2" %}
+<div class="ticker" aria-label="Water equities on our radar">
+ <span class="tk-label">On our radar</span>
+ <div class="tk-view"><div class="tk-track">{% for pass in [0,1] %}<ul{% if pass %} aria-hidden="true"{% endif %}>{% for s in d.watchlist %}<li><b>{{ s.ticker }}</b> {{ s.name }}<span>{{ s.note }}</span></li>{% endfor %}</ul>{% endfor %}</div></div>
+</div>
 <div class="next" aria-label="Coming up">
  <div class="wrap next-in">{% for e in d.events[:5] %}<div><span>{{ e.name }}</span> <strong{% if e.start %} data-start="{{ e.start }}"{% endif %}>{{ e.when }}{% if e.year != d.date[:4] %}, {{ e.year }}{% endif %}</strong></div>{% endfor %}</div>
 </div>
@@ -124,10 +128,14 @@
     <thead><tr><th scope="col">Date</th><th scope="col">Deal</th><th scope="col">Buyer or investor</th><th scope="col" class="r">Value</th></tr></thead>
     <tbody>{% for x in d.capital.deals %}<tr><td class="nowrap" data-l="Date">{{ x.date }}</td><td data-l="Deal"><a href="{{ x.source.url }}" rel="noopener">{{ x.deal }}</a></td><td data-l="Buyer">{{ x.who }}</td><td class="r nowrap" data-l="Value">{{ x.value }}</td></tr>{% endfor %}</tbody>
    </table></div>
-   <div>
-    <h3 class="h3s">Firms we track</h3>
-    <div class="firms">{% for f in d.capital.firms %}<div class="firm {{ 'pe' if f.type == 'Private equity' else 'vc' }}"><b>{{ f.name }}</b><span>{{ f.type }}. {{ f.line }}</span></div>{% endfor %}</div>
-   </div>
+   {% set f = d.capital.firm %}<aside class="firmspot">
+    <p class="kick">Firm in focus: {{ f.type }}</p>
+    <h3>{{ f.name }}</h3>
+    <p class="sub">{{ f.headline }}</p>
+    <div class="figs">{% for g in f.figs %}<div><b>{{ g.v }}</b><span>{{ g.l }}</span></div>{% endfor %}</div>
+    <p>{{ f.body }}</p>
+    <p class="src">Sources: {% for s in f.sources %}<a href="{{ s.url }}" rel="noopener">{{ s.name }}</a>{{ ", " if not loop.last }}{% endfor %}</p>
+   </aside>
   </div>
  </div>
 </section>
@@ -173,13 +181,22 @@
  </div>
 </section>
 
-<section id="markets" class="band tint">
+{% set pl = d.place %}<section id="place" class="band tint place">
  <div class="wrap">
-  <div class="head"><h2>Water equities watchlist</h2><p>The listed companies and funds this desk follows, with where each sits in the water cycle and the latest reason it is on our radar. Not investment advice.</p></div>
-  <div class="scroll"><table class="stack">
-   <thead><tr><th scope="col">Ticker</th><th scope="col">Company</th><th scope="col">Where it sits</th><th scope="col">On our radar</th></tr></thead>
-   <tbody>{% for s in d.watchlist %}<tr><td class="nowrap" data-l="Ticker"><b>{{ s.ticker }}</b></td><td data-l="Company">{{ s.name }}</td><td data-l="Sits">{{ s.seg }}</td><td data-l="Radar">{{ s.note }}</td></tr>{% endfor %}</tbody>
-  </table></div>
+  <div class="head"><h2>Water place of the week</h2><p>{{ pl.week_of }}. One site where water engineering is worth seeing in person.</p></div>
+  <div class="pl">
+   <figure><img src="{{ root }}assets/art/{{ pl.art }}" width="960" height="600" alt="Illustration of {{ pl.name }}: a gated dam separating a city reservoir from the sea, with a grass roof and skyline behind" loading="lazy"><figcaption>Illustration by Water Capital Wire</figcaption></figure>
+   <div>
+    <p class="kick">{{ pl.location }}</p>
+    <h3>{{ pl.name }}</h3>
+    <p class="sub">{{ pl.headline }}</p>
+    {% for para in pl.body %}<p>{{ para }}</p>{% endfor %}
+    <div class="figs three">{% for g in pl.facts %}<div><b>{{ g.v }}</b><span>{{ g.l }}</span></div>{% endfor %}</div>
+    <p class="why"><b>Why it matters.</b> {{ pl.why }}</p>
+    <p class="visit"><b>If you go.</b> {{ pl.visit }}</p>
+    <p class="src">Sources: {% for s in pl.sources %}<a href="{{ s.url }}" rel="noopener">{{ s.name }}</a>{{ ", " if not loop.last }}{% endfor %}</p>
+   </div>
+  </div>
  </div>
 </section>
 
@@ -218,7 +235,7 @@
 <section id="events" class="band tint">
  <div class="wrap">
   <div class="head"><h2>The water calendar</h2><p>The meetings where capital, utilities and technology buyers are in one place. Confirm dates with each organizer before booking travel.</p></div>
-  <ul class="events">{% for e in d.events %}<li><div class="d">{{ e.when }}<small>{{ e.year }}</small></div><div><a href="{{ e.url }}" rel="noopener"><b>{{ e.name }}</b></a><span>{{ e.where }}</span></div></li>{% endfor %}</ul>
+  <ul class="events">{% for e in d.events %}<li><div class="d">{{ e.when }}<small>{{ e.year }}</small></div><div><a href="{{ e.url }}" rel="noopener"><b>{{ e.name }}</b></a>{% if e.pws %}<em class="pws">PWS</em>{% endif %}<span>{{ e.where }}</span></div></li>{% endfor %}</ul>
  </div>
 </section>
 

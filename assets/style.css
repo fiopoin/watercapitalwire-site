@@ -177,7 +177,7 @@ button.on,button.go{background:var(--blue);border-color:var(--blue);color:#fff}
 .verdict{font-size:15px;margin:0}
 
 /* events */
-.events{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:repeat(6,auto);grid-auto-flow:column;gap:0 40px}
+.events{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:repeat(9,auto);grid-auto-flow:column;gap:0 40px}
 .events li{display:grid;grid-template-columns:7.5em minmax(0,1fr);gap:14px;padding:13px 0;border-bottom:1px solid var(--line)}
 .events .d{font-weight:800;font-size:16.5px;white-space:nowrap;color:var(--blue)}
 .events .d small{display:block;font-weight:500;font-size:13px;color:var(--mute)}
@@ -229,3 +229,35 @@ button.on,button.go{background:var(--blue);border-color:var(--blue);color:#fff}
  table{font-size:14px}.stack thead{display:none}.stack tr{display:grid;padding-block:10px;border-bottom:1px solid var(--line)}.stack td{display:flex;justify-content:space-between;gap:12px;border:0;padding:3px 0;text-align:right}.stack td::before{content:attr(data-l);font-weight:700;color:var(--mute);flex:none;text-align:left}
  .events li{grid-template-columns:6.5em minmax(0,1fr)}.bar{grid-template-columns:minmax(0,1fr) 3.2em}.bt2{grid-column:1/-1;grid-row:2}.bn{grid-column:1/-1}.big{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(prefers-reduced-motion:no-preference){.bt2 i,.pb{transition:width .4s,height .4s}}
+
+/* rolling ticker */
+.ticker{display:flex;align-items:stretch;background:#07121f;color:#dce8f5;font-size:14px;border-bottom:1px solid #1d3550}
+.tk-label{flex:none;background:var(--orange2);color:#0b1a2b;font-weight:800;font-size:12px;letter-spacing:.06em;text-transform:uppercase;padding:9px 14px;display:flex;align-items:center}
+.tk-view{overflow:hidden;flex:1;min-width:0}
+.tk-track{display:flex;width:max-content;animation:tk 110s linear infinite}
+.ticker:hover .tk-track,.ticker:focus-within .tk-track{animation-play-state:paused}
+.tk-track ul{display:flex;list-style:none;margin:0;padding:0}
+.tk-track li{white-space:nowrap;padding:9px 26px 9px 0;margin-left:26px;border-right:1px solid #1d3550}
+.tk-track b{color:var(--blue2);margin-right:4px}
+.tk-track span{color:#9fb3c8;margin-left:8px}
+@keyframes tk{to{transform:translateX(-50%)}}
+@media (prefers-reduced-motion:reduce){.tk-track{animation:none}.tk-view{overflow-x:auto}}
+/* firm spotlight */
+.firmspot{background:var(--panel);border:1px solid var(--line);border-top:4px solid var(--purple);border-radius:10px;padding:20px 22px;align-self:start}
+.firmspot h3,.place h3{font:700 26px/1.15 var(--serif);margin:2px 0 6px}
+.kick{font-size:12.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--purple);margin:0}
+.place .kick{color:var(--blue)}
+.sub{font:italic 400 18px/1.4 var(--serif);color:var(--mute);margin:0 0 14px}
+.firmspot .figs,.place .figs{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:0 0 14px}
+.place .figs.three{grid-template-columns:repeat(3,1fr)}
+.firmspot .figs div,.place .figs div{border-left:3px solid var(--blue2);padding-left:10px}
+.firmspot .figs b,.place .figs b{display:block;font:700 24px/1.1 var(--serif)}
+.firmspot .figs span,.place .figs span{font-size:13.5px;color:var(--mute);line-height:1.35;display:block}
+/* place of the week */
+.pl{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:36px;align-items:start}
+.pl figure{margin:0}.pl img{width:100%;height:auto;border-radius:10px;display:block;border:1px solid var(--line)}
+.pl figcaption{font-size:12.5px;color:var(--mute);margin-top:6px}
+.place .visit{font-size:15px}
+.pws{font-style:normal;font-size:11px;font-weight:800;letter-spacing:.05em;background:var(--green2);color:#0b1a2b;border-radius:4px;padding:1px 6px;margin-left:8px;vertical-align:2px}
+@media (max-width:900px){.pl{grid-template-columns:1fr;gap:20px}.events{grid-template-rows:none;grid-auto-flow:row}}
+@media (max-width:600px){.place .figs.three{grid-template-columns:1fr 1fr 1fr;gap:8px}.place .figs b{font-size:19px}}
