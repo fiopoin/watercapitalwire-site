@@ -1,0 +1,919 @@
+{
+ "date": "2026-11-21",
+ "date_long": "November 21, 2026",
+ "edition": 2,
+ "lead": {
+  "kicker": "Data centers and supply",
+  "stages": [
+   "source",
+   "use",
+   "reuse"
+  ],
+  "headline": "Nevada's data center boom could need about 34,000 acre-feet of water a year, most of it at power plants",
+  "dek": "An updated Desert Research Institute study puts direct cooling demand near 12,800 acre-feet a year by 2036. The water consumed to generate their electricity is far larger.",
+  "body": [
+   "The Desert Research Institute has revised its January estimate of what data centers will mean for water in Nevada, the driest state. The update uses NV Energy's 2026 planning forecast, which lists 39 proposed high load data centers requesting 16,530 megawatts by 2036. The January study covered 12 projects and about 5,900 megawatts.",
+   "At the midpoint of its scenarios, the institute estimates direct cooling use of about 12,770 acre-feet a year, roughly 4 billion gallons, plus about 21,283 acre-feet consumed at the utility level to generate the power. Data centers are about 5% of NV Energy's sales today and are expected to reach 64% by 2046, according to the Nevada Independent.",
+   "The supply question is where the business case sits. The report says new growth will largely come from unappropriated groundwater, water reclamation or water transfers, and that direct demand will depend on cooling technology, with direct to chip and immersion systems among the more efficient options. A closed loop 100 megawatt facility in Las Vegas used less than 2 acre-feet in 2025, while an evaporative Google site in Henderson used about 636 acre-feet in 2024."
+  ],
+  "pipe": {
+   "source": "New demand will lean on unappropriated groundwater, reclaimed water and transfers in a state with little surface water to spare.",
+   "treat": "Reclaimed and brackish sources mean more treatment ahead of cooling systems and more brine to manage.",
+   "use": "Cooling design decides direct use: closed loop sites can use almost nothing, evaporative sites hundreds of acre-feet.",
+   "reuse": "Reclamation is one of the three named supply routes, which puts municipal effluent in play as an industrial asset.",
+   "discharge": "Blowdown from evaporative cooling concentrates salts and has to go somewhere in a closed desert basin."
+  },
+  "use": [
+   {
+    "who": "Investors",
+    "text": "Grid water now outweighs cooling water. Power siting is a water risk, not just an energy one."
+   },
+   {
+    "who": "Utilities",
+    "text": "Reclaimed water contracts with data center developers can become a revenue line."
+   },
+   {
+    "who": "Data center operators",
+    "text": "Closed loop and direct to chip cooling shrink the permit fight in arid states."
+   },
+   {
+    "who": "Technology firms",
+    "text": "Brackish treatment, reuse and low water cooling are the products Nevada buyers will need."
+   }
+  ],
+  "sources": [
+   {
+    "name": "Facilities Dive",
+    "url": "https://www.facilitiesdive.com/news/new-data-centers-could-draw-4b-gallons-of-water-a-year-out-of-nevada-drie/875249/"
+   },
+   {
+    "name": "The Nevada Independent",
+    "url": "https://thenevadaindependent.com/article/two-nv-scientists-tried-figuring-out-how-much-water-data-centers-use-it-got-complicated/"
+   },
+   {
+    "name": "Desert Research Institute, January report",
+    "url": "https://www.dri.edu/?p=1391091"
+   }
+  ]
+ },
+ "briefs": [
+  {
+   "id": "money",
+   "sector": "Capital",
+   "region": "United States",
+   "headline": "California Water Service becomes Watermark Utilities and heads for Nevada and Oregon",
+   "text": "California Water Service Group will trade under the name Watermark Utilities from November 30, keeping the CWT ticker, according to an 8-K filed November 18. The company, which serves more than 2.2 million people through subsidiaries in California, Hawaii, New Mexico, Texas and Washington, says it plans to expand into Nevada and Oregon before year end.",
+   "why": "A new name that drops the home state signals a multi-state acquirer. It arrives as American Water and Essential pursue their merger and small system purchases keep the consolidation pipeline full.",
+   "sources": [
+    {
+     "name": "SEC Form 8-K via StockTitan",
+     "url": "https://www.stocktitan.net/sec-filings/CWT/8-k-california-water-service-group-reports-material-event-6f15269b3afb.html"
+    }
+   ]
+  },
+  {
+   "id": "world",
+   "sector": "Desalination",
+   "region": "Saudi Arabia",
+   "headline": "Saudi Water Authority cancels WABAG's $272 million Yanbu desalination award",
+   "text": "The Saudi Water Authority cancelled the tender for a 300 million liter a day seawater reverse osmosis plant at Yanbu, citing internal reasons, VA Tech Wabag told Indian exchanges on November 14. WABAG had signed the contract awarded in July 2025 and sent it for counter-signature, which never came. It was the second award of the project to the company, after one in September 2024 at about $317 million.",
+   "why": "Gulf desalination awards are not final until the buyer signs. Contractors carrying Saudi projects in their order books may face closer questions from investors. The authority has not said whether it will re-tender.",
+   "sources": [
+    {
+     "name": "Saudi Gulf Projects",
+     "url": "https://www.saudigulfprojects.com/2026/11/yanbu-desalination-plant-swa-cancels-272-million-wabag-tender/"
+    }
+   ]
+  },
+  {
+   "id": "rates",
+   "sector": "Utilities",
+   "region": "Texas",
+   "headline": "Texas regulators hold off on Aqua Texas rates and weigh a five-year phase-in",
+   "text": "The Public Utility Commission of Texas ended a November 19 hearing on Aqua Texas rates without a decision. Commissioners questioned the utility's records and asked staff to calculate rates under the administrative law judges' recommendations. Options include lower rates on those recommendations, a five-year phase-in that staff had proposed, or sending the case back for more review. Aqua Texas says its recordkeeping has improved.",
+   "why": "Rate shock is becoming a political limit on how fast investor-owned utilities recover capital spending. A ruling could come at an open meeting as soon as December.",
+   "sources": [
+    {
+     "name": "KPRC Click2Houston",
+     "url": "https://www.click2houston.com/news/local/2026/11/20/aqua-texas-customers-wait-for-answers-as-puc-considers-options-for-lowering-water-bills/"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "sector": "Energy",
+   "region": "Permian Basin",
+   "headline": "Select Water closes its $700 million purchase of Pilot Water Solutions",
+   "text": "Select Water Solutions completed its acquisition of Delaware Basin produced water company Pilot Water Solutions on November 2, paying about $600 million in cash and 5.1 million shares. Pilot brings about 2.7 million barrels a day of active permitted disposal capacity and more than 700 miles of pipeline. Select funded the deal with $900 million of 7.625% senior notes due 2034.",
+   "why": "Produced water is now a midstream business financed like one. Select expects the combined company to handle more than 2.5 million barrels a day in 2027.",
+   "sources": [
+    {
+     "name": "Smart Water Magazine",
+     "url": "https://smartwatermagazine.com/news/smart-water-magazine/select-water-closes-us700m-purchase-of-delaware-basin-produced-water-firm-pilot"
+    }
+   ]
+  },
+  {
+   "id": "pricing",
+   "sector": "Utilities",
+   "region": "Australia",
+   "headline": "TasWater's new sewer pricing cuts hospital charges about 70% while some customers faced 500% rises",
+   "text": "Tasmania's water utility moved some non-residential fixed sewerage charges to a basis of water connection size from July 1. Health department documents show Launceston General Hospital's fixed charge fell to $12,531 for July to September from $67,361 a year earlier. Customers with large connections, such as sports grounds, were initially set for increases of up to 500%, and TasWater paused those bills on October 2. The utility says it still expects to collect its planned revenue.",
+   "why": "Tariff redesign shifts who pays without changing what a utility collects. Utilities moving to capacity based charges should model the outliers before bills go out.",
+   "sources": [
+    {
+     "name": "ABC News Australia",
+     "url": "https://www.abc.net.au/news/2026-11-20/taswater-slashes-hospital-sewerage-bills-other-customers-hikes/107384246"
+    }
+   ]
+  }
+ ],
+ "spotlight": {
+  "company": {
+   "week_of": "Week of November 16",
+   "name": "Xylem",
+   "headline": "Xylem is shrinking to grow",
+   "figs": [
+    {
+     "v": "$2.2B",
+     "l": "Q3 revenue, down 3%"
+    },
+    {
+     "v": "$1.44",
+     "l": "Adjusted EPS, up 5%"
+    }
+   ],
+   "body": "Third quarter results on October 27 missed revenue expectations as utility project timing slipped. Management answered with portfolio moves: it intends to divest Applied Water International and Specialty Flow Control and will report three segments instead of four from 2027. In July it agreed to buy WaterFleet from EagleTree Capital for about $200 million, adding to its industrial water platform.",
+   "sources": [
+    {
+     "name": "Xylem via Finviz",
+     "url": "https://finviz.com/news/408570/xylem-reports-third-quarter-2026-results-and-announces-strategic-actions-to-accelerate-growth"
+    },
+    {
+     "name": "Zacks",
+     "url": "https://www.zacks.com/stock/news/3016371/xylem-q3-earnings-miss-estimates-on-soft-metering-and-projects"
+    },
+    {
+     "name": "Bluefield Research",
+     "url": "https://www.bluefieldresearch.com/?p=42277"
+    }
+   ]
+  },
+  "leader": {
+   "week_of": "Week of November 16",
+   "name": "Estelle Brachlianoff",
+   "role": "Chief executive, Veolia",
+   "figs": [
+    {
+     "v": "Since 2022",
+     "l": "Group CEO"
+    },
+    {
+     "v": "$3B",
+     "l": "Clean Earth purchase"
+    }
+   ],
+   "body": "Brachlianoff has run Veolia since July 2022, and shareholders renewed her board seat in April 2026 through the 2030 annual meeting. Her GreenUp plan leans on water technology and hazardous waste: Veolia agreed to buy US hazardous waste company Clean Earth for about $3 billion, won two Mumbai water projects in February and launched an integrated offer for data centers.",
+   "sources": [
+    {
+     "name": "Veolia",
+     "url": "https://www.veolia.com/en/veolia-group/profile/board-of-directors"
+    },
+    {
+     "name": "Fortune",
+     "url": "https://fortune.com/ranking/most-powerful-women/2026/estelle-brachlianoff/"
+    },
+    {
+     "name": "Euronext",
+     "url": "https://live.euronext.com/en/products/equities/company-news/2026-02-26-veolia-strengthens-its-presence-india-two-unprecedent"
+    }
+   ]
+  },
+  "supplier": {
+   "week_of": "Week of November 16",
+   "name": "Ecolab",
+   "kicker": "Treatment chemistry and digital water",
+   "headline": "Ecolab's water business is being pulled by chips and AI data centers",
+   "figs": [
+    {
+     "v": "$2.48B",
+     "l": "Global Water sales, Q3"
+    },
+    {
+     "v": "+63%",
+     "l": "High-Tech organic growth"
+    }
+   ],
+   "body": [
+    "Ecolab reported third quarter sales up 13% to $4.69 billion on October 27, with organic growth accelerating to 7%. Chairman and chief executive Christophe Beck called the quarter an inflection point, and the water segment is where the change shows most clearly.",
+    "Global Water sales rose 20% at fixed currency to $2.48 billion. Eleven points came from the Ovivo Electronics and CoolIT acquisitions, and the rest from organic growth led by Global High-Tech, which grew 63% organically on semiconductor and data center demand.",
+    "The cost of that bet is visible too. CoolIT amortization and financing took roughly 10% off adjusted earnings growth, holding adjusted EPS to $2.18, up 5%. Management guides full-year adjusted EPS to $8.10 to $8.20."
+   ],
+   "split": [
+    {
+     "l": "Organic",
+     "v": 9
+    },
+    {
+     "l": "Acquisitions",
+     "v": 11
+    }
+   ],
+   "why": "Fabs and hyperscale data centers now set the pace for industrial water treatment. Expect bundled water, cooling and digital contracts and tighter supply of ultrapure water expertise.",
+   "sources": [
+    {
+     "name": "Ecolab Form 8-K",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000031462/000162828026067418/ecl_ex99x1.htm"
+    },
+    {
+     "name": "Zacks",
+     "url": "https://www.zacks.com/stock/news/3016401/ecolab-q3-earnings-in-line-with-estimates-revenues-increase-yy"
+    },
+    {
+     "name": "Quartr",
+     "url": "https://quartr.com/events/ecolab-ecl-q3-2026_3eHQ1294"
+    }
+   ]
+  },
+  "innovation": {
+   "week_of": "Week of November 16",
+   "name": "Claros Technologies",
+   "headline": "Claros takes PFAS destruction to full scale at Daikin",
+   "figs": [
+    {
+     "v": "99.99%",
+     "l": "Target PFAS destroyed"
+    },
+    {
+     "v": "170,000 gal",
+     "l": "Optimization run"
+    }
+   ],
+   "body": "Most PFAS treatment moves the chemicals into another waste stream. Claros breaks them apart with its ClarosTechUV system. On October 1 it signed a commercial agreement with Daikin America for full-scale deployment at Daikin's plant in Decatur, Alabama, after a December 2025 run treated more than 170,000 gallons of process water with greater than 99.99% destruction of target PFAS.",
+   "sources": [
+    {
+     "name": "Innovation News Network",
+     "url": "https://www.innovationnewsnetwork.com/claros-technologies-turns-pfas-destruction-into-commercial-reality/74670/"
+    }
+   ]
+  },
+  "investor": {
+   "week_of": "Week of November 16",
+   "name": "Burnt Island Ventures",
+   "headline": "The most active water-only venture firm",
+   "figs": [
+    {
+     "v": "$50M",
+     "l": "Fund II, Oct 2025"
+    },
+    {
+     "v": "2020",
+     "l": "Founded"
+    }
+   ],
+   "body": "Founded in New York by water industry veteran Tom Ferguson, Burnt Island invests only in early stage water technology. Xylem anchored both of its funds, with climate fund of funds WovenEarth Ventures joining Fund II. Published deal trackers show 2026 investments in Aquatic Labs, Crew Carbon, Biota and Verdi.",
+   "sources": [
+    {
+     "name": "Business Wire",
+     "url": "https://www.businesswire.com/news/home/20251022551885/en"
+    },
+    {
+     "name": "ImpactAlpha",
+     "url": "https://impactalpha.com/?p=121489"
+    },
+    {
+     "name": "f4.fund",
+     "url": "https://f4.fund/firms/burnt-island-ventures"
+    }
+   ]
+  }
+ },
+ "capital": {
+  "intro": "Private equity has executed 435 water deals across 25 countries since 2015 and more than doubled its holdings since 2019, according to Bluefield Research. Most of those assets are under three years old, which points to an exit wave.",
+  "intro_source": {
+   "name": "Bluefield Research",
+   "url": "https://www.bluefieldresearch.com/?p=39315"
+  },
+  "deals": [
+   {
+    "date": "Nov 18, 2026",
+    "deal": "Indian Creek Valley Water Authority system acquired",
+    "who": "Pennsylvania American Water",
+    "value": "$32.8M",
+    "source": {
+     "name": "PR Newswire",
+     "url": "https://finviz.com/news/424949/pennsylvania-american-water-completes-acquisition-of-the-indian-creek-valley-water-authority-water-system"
+    }
+   },
+   {
+    "date": "Nov 6, 2026",
+    "deal": "Illinois approves American Water and Essential merger",
+    "who": "American Water, Essential Utilities",
+    "value": "All stock",
+    "source": {
+     "name": "Smart Water Magazine",
+     "url": "https://smartwatermagazine.com/news/smart-water-magazine/illinois-regulator-approves-american-water-essential-utilities-merger-fourth-state-clearance"
+    }
+   },
+   {
+    "date": "Nov 2, 2026",
+    "deal": "Pilot Water Solutions acquired",
+    "who": "Select Water Solutions, from Pilot OFS and Minerva",
+    "value": "About $700M",
+    "source": {
+     "name": "Smart Water Magazine",
+     "url": "https://smartwatermagazine.com/news/smart-water-magazine/select-water-closes-us700m-purchase-of-delaware-basin-produced-water-firm-pilot"
+    }
+   },
+   {
+    "date": "Aug 19, 2026",
+    "deal": "Cleanwater1 acquisition agreed",
+    "who": "Veralto, from Baird Capital",
+    "value": "$465M",
+    "source": {
+     "name": "The Deal",
+     "url": "https://www.thedeal.com/scoops-exclusives/veralto-wins-auction-for-baird-capitals-cleanwater1/"
+    }
+   },
+   {
+    "date": "Jul 29, 2026",
+    "deal": "WaterFleet acquisition agreed",
+    "who": "Xylem, from EagleTree Capital",
+    "value": "About $200M",
+    "source": {
+     "name": "Bluefield Research",
+     "url": "https://www.bluefieldresearch.com/?p=42277"
+    }
+   },
+   {
+    "date": "Jun 4, 2026",
+    "deal": "USG Water Solutions acquired",
+    "who": "Warren Equity Partners, from Turnspire",
+    "value": "Undisclosed",
+    "source": {
+     "name": "Pulse",
+     "url": "https://www.pulse.bot/b2b-growth/deals/warren-equity-acquires-usg-water-solutions-from-turnspire-83a1384f-f41a-4ff2-a736-c6253edf5458/"
+    }
+   },
+   {
+    "date": "Apr 2026",
+    "deal": "The Scruggs Companies acquired",
+    "who": "The Sterling Group, from Rox Capital Partners",
+    "value": "Undisclosed",
+    "source": {
+     "name": "BriefGlance",
+     "url": "https://briefglance.com/articles/private-equity-flows-into-water-sterling-acquires-scruggs-platform"
+    }
+   }
+  ],
+  "firm": {
+   "name": "XPV Water Partners",
+   "type": "Growth private equity, water only",
+   "base": "Toronto",
+   "headline": "XPV is buying the unglamorous middle of the water economy",
+   "figs": [
+    {
+     "v": "$1B+",
+     "l": "Assets under management"
+    },
+    {
+     "v": "$625M+",
+     "l": "Raised for Fund III and Extended Value Fund"
+    }
+   ],
+   "body": "XPV invests only in water and builds platforms through add-on acquisitions. In 2026 it bought Weisinger, a groundwater and well services provider for Texas municipal and industrial clients, formed the ocean technology platform OceanSight, and added Sound Metrics and C&C Ground Water Services. In June it exited Axius Water alongside co-owner KKR. Founding partner David Henderson leads the firm.",
+   "sources": [
+    {
+     "name": "The Water Network",
+     "url": "https://thewaternetwork.com/article-FfV/xpv-water-partners-surpasses-us-1-billion-in-assets-under-management-NK8nG1gCt3irsElIuFQo0Q"
+    },
+    {
+     "name": "Global AgInvesting",
+     "url": "https://globalaginvesting.com/?p=10841"
+    },
+    {
+     "name": "Smart Water Magazine",
+     "url": "https://smartwatermagazine.com/news/smart-water-magazine/xpv-water-partners-invests-weisinger-incorporated-drive-growth-water"
+    },
+    {
+     "name": "CT Acquisitions",
+     "url": "https://ctacquisitions.com/directory/xpv-water-partners/"
+    }
+   ]
+  }
+ },
+ "watchlist": [
+  {
+   "ticker": "XYL",
+   "name": "Xylem",
+   "seg": "Pumps, treatment, metering",
+   "note": "Reshaping into three segments in 2027"
+  },
+  {
+   "ticker": "ECL",
+   "name": "Ecolab",
+   "seg": "Treatment chemistry",
+   "note": "High-Tech water for fabs and data centers"
+  },
+  {
+   "ticker": "VIE (Paris)",
+   "name": "Veolia",
+   "seg": "Utilities and water technology",
+   "note": "Gulf desalination wins; US hazardous waste push"
+  },
+  {
+   "ticker": "VLTO",
+   "name": "Veralto",
+   "seg": "Water quality and testing",
+   "note": "Cleanwater1 purchase expected to close in Q4"
+  },
+  {
+   "ticker": "AWK",
+   "name": "American Water Works",
+   "seg": "Regulated utility",
+   "note": "Merger with Essential expected to close in Q1 2027"
+  },
+  {
+   "ticker": "WTRG",
+   "name": "Essential Utilities",
+   "seg": "Regulated utility",
+   "note": "Being acquired by American Water"
+  },
+  {
+   "ticker": "HTO",
+   "name": "H2O America",
+   "seg": "Regulated utility",
+   "note": "Texas expansion through Quadvest"
+  },
+  {
+   "ticker": "CWT",
+   "name": "California Water Service",
+   "seg": "Regulated utility",
+   "note": "Becomes Watermark Utilities on Nov 30"
+  },
+  {
+   "ticker": "PNR",
+   "name": "Pentair",
+   "seg": "Residential and commercial",
+   "note": "Pool and water treatment"
+  },
+  {
+   "ticker": "WTS",
+   "name": "Watts Water",
+   "seg": "Building water systems",
+   "note": "Flow control inside buildings"
+  },
+  {
+   "ticker": "BMI",
+   "name": "Badger Meter",
+   "seg": "Smart metering",
+   "note": "Utility metering and software"
+  },
+  {
+   "ticker": "MWA",
+   "name": "Mueller Water Products",
+   "seg": "Valves, hydrants, pipe",
+   "note": "Aging network replacement"
+  },
+  {
+   "ticker": "ERII",
+   "name": "Energy Recovery",
+   "seg": "Desalination energy recovery",
+   "note": "Pressure exchangers for reverse osmosis"
+  },
+  {
+   "ticker": "6370 (Tokyo)",
+   "name": "Kurita Water",
+   "seg": "Chemistry and services",
+   "note": "Ultrapure water; new India joint venture"
+  },
+  {
+   "ticker": "PHO, CGW, FIW",
+   "name": "Water ETFs",
+   "seg": "Funds",
+   "note": "Invesco and First Trust water baskets"
+  }
+ ],
+ "atlas": {
+  "stress": {
+   "title": "A quarter of humanity lives in extremely water stressed countries",
+   "intro": "Twenty five countries, home to one quarter of the world's population, use more than 80% of their renewable water supply every year. Even a short drought puts them at risk of running out.",
+   "regions": [
+    {
+     "name": "Middle East and North Africa",
+     "pct": 83,
+     "note": "Rises to 100% by 2050"
+    },
+    {
+     "name": "South Asia",
+     "pct": 74,
+     "note": "India carries most of the exposure"
+    }
+   ],
+   "regions_label": "Share of population exposed to extremely high water stress",
+   "facts": [
+    {
+     "v": "4 billion",
+     "l": "People facing high water stress at least one month a year"
+    },
+    {
+     "v": "$70T",
+     "l": "GDP exposed to high water stress by 2050, 31% of the world total"
+    },
+    {
+     "v": "60%",
+     "l": "Irrigated agriculture facing extremely high water stress"
+    }
+   ],
+   "hotspots": "Most stressed: Bahrain, Cyprus, Kuwait, Lebanon, Oman and Qatar. India, Mexico, Egypt and Turkey hold over half of the GDP exposed by 2050.",
+   "sources": [
+    {
+     "name": "WRI Aqueduct",
+     "url": "https://www.wri.org/insights/highest-water-stressed-countries"
+    },
+    {
+     "name": "WRI",
+     "url": "https://www.wri.org/insights/17-countries-home-one-quarter-worlds-population-face-extremely-high-water-stress"
+    },
+    {
+     "name": "Smart Water Magazine",
+     "url": "https://smartwatermagazine.com/news/world-resources-institute-wri/25-countries-housing-one-quarter-population-face-extremely-high"
+    }
+   ]
+  },
+  "demand": {
+   "title": "Demand keeps climbing as the world adds two billion people",
+   "intro": "Global water demand has more than doubled since 1960 and has grown by just under 1% a year since the 1980s. The UN expects the population to rise from 8.2 billion in 2024 to a peak of about 10.3 billion in the mid 2080s.",
+   "pop": [
+    {
+     "y": "2024",
+     "v": 8.2
+    },
+    {
+     "y": "Mid 2080s peak",
+     "v": 10.3
+    },
+    {
+     "y": "2100",
+     "v": 10.2
+    }
+   ],
+   "facts": [
+    {
+     "v": "+20 to 25%",
+     "l": "Global water demand growth by 2050"
+    },
+    {
+     "v": "+163%",
+     "l": "Sub-Saharan Africa demand growth by 2050"
+    },
+    {
+     "v": "40%",
+     "l": "Shortfall of freshwater supply against demand by 2030 under current trends"
+    }
+   ],
+   "sources": [
+    {
+     "name": "UN World Population Prospects 2024",
+     "url": "https://population.un.org/WPP/Publications/Files/WPP2024_Key-Messages.pdf"
+    },
+    {
+     "name": "WRI",
+     "url": "https://www.wri.org/insights/17-countries-home-one-quarter-worlds-population-face-extremely-high-water-stress"
+    },
+    {
+     "name": "World Economic Forum",
+     "url": "https://www.weforum.org/stories/2023/08/countries-extremely-high-water-stress/"
+    },
+    {
+     "name": "UN concept paper citing UN WWDR 2024",
+     "url": "https://sdgs.un.org/sites/default/files/2026-09/26-01371%20ATT%20Concept%20Paper%20UNWC_IDB.pdf"
+    },
+    {
+     "name": "Global Commission on the Economics of Water via WEF",
+     "url": "https://www.weforum.org/stories/2023/03/global-freshwater-demand-will-exceed-supply-40-by-2030-experts-warn/"
+    }
+   ]
+  },
+  "infra": {
+   "title": "The pipes are the biggest bill",
+   "items": [
+    {
+     "v": "$625B",
+     "l": "US drinking water needs over 20 years, EPA survey",
+     "s": {
+      "name": "Pew, on EPA's 7th DWINSA",
+      "url": "https://www.pew.org/en/research-and-analysis/articles/2023/09/25/more-federal-funding-needed-to-improve-drinking-water-epa-study-finds"
+     }
+    },
+    {
+     "v": "$630.1B",
+     "l": "US wastewater and stormwater needs over 20 years, EPA survey",
+     "s": {
+      "name": "Pew, on EPA's Clean Watersheds Needs Survey",
+      "url": "https://www.pew.org/pl/research-and-analysis/articles/2024/09/05/water-system-upgrades-could-require-more-than-$1-trillion-over-next-20-years"
+     }
+    },
+    {
+     "v": "9.2M",
+     "l": "Lead service lines still in US systems",
+     "s": {
+      "name": "Pew",
+      "url": "https://www.pew.org/ru/research-and-analysis/articles/2023/09/25/more-federal-funding-needed-to-improve-drinking-water-epa-study-finds"
+     }
+    },
+    {
+     "v": "324B m³",
+     "l": "Freshwater the world loses every year, enough for 280 million people",
+     "s": {
+      "name": "World Bank",
+      "url": "https://www.worldbank.org/en/news/press-release/2025/11/04/world-annual-fresh-water-losses-could-supply-280-million-people"
+     }
+    }
+   ],
+   "note": "Distribution and transmission pipe is the largest single piece of the US drinking water need."
+  },
+  "sectors": [
+   {
+    "name": "Data centers",
+    "fig": "Up to 12%",
+    "l": "Share of US electricity data centers could use by 2028",
+    "line": "Direct cooling water was about 17 billion gallons in 2023; the water behind their power is about 12 times larger.",
+    "s": {
+     "name": "Lawrence Berkeley National Laboratory via Latitude Media",
+     "url": "https://www.latitudemedia.com/news/data-centers-hidden-water-footprint-is-linked-to-the-grid/"
+    }
+   },
+   {
+    "name": "Semiconductors",
+    "fig": "+63%",
+    "l": "Ecolab High-Tech organic growth, Q3",
+    "line": "Ultrapure water and water circularity are now strategic inputs for every new fab.",
+    "s": {
+     "name": "Quartr",
+     "url": "https://quartr.com/events/ecolab-ecl-q3-2026_3eHQ1294"
+    }
+   },
+   {
+    "name": "PFAS destruction",
+    "fig": "$2.65B",
+    "l": "Projected PFAS treatment market by 2030",
+    "line": "The market moves from capturing PFAS to destroying them, led by UV, plasma and supercritical oxidation.",
+    "s": {
+     "name": "Cleantech Group",
+     "url": "https://cleantech.com/release/pfas-destruction-technologies-see-surge-in-innovation-and-investment/"
+    }
+   },
+   {
+    "name": "Desalination and reuse",
+    "fig": "+40%",
+    "l": "Growth in global desalination capacity, 2020 to 2025",
+    "line": "Seawater and reuse now supply cities from the Gulf to Baja California.",
+    "s": {
+     "name": "Aquatech, citing IDRA",
+     "url": "https://www.aquatechtrade.com/news/desalination/energy-efficient-desalination-continues-to-drive-water-security-strategies"
+    }
+   }
+  ],
+  "security": [
+   {
+    "headline": "The UN says the world has entered water bankruptcy",
+    "text": "A UN University report in January argued that groundwater depletion, overallocation and pollution have pushed many basins past the point of recovery, and that \"crisis\" no longer describes it.",
+    "s": {
+     "name": "UN University",
+     "url": "https://unu.edu/inweh/news/world-enters-era-of-global-water-bankruptcy"
+    }
+   },
+   {
+    "headline": "The US and Mexico set Colorado River rules for 2027 and 2028",
+    "text": "The two countries signed a formal agreement in September on new operating guidelines for the river that supplies seven US states and northern Mexico.",
+    "s": {
+     "name": "Water Online",
+     "url": "https://www.wateronline.com/hub/bucket/HomeLatestHeadlines?page=10"
+    }
+   },
+   {
+    "headline": "The Gulf runs on desalination",
+    "text": "The Middle East and North Africa host over 40% of global desalination capacity, and the Gulf Cooperation Council countries alone hold 33%.",
+    "s": {
+     "name": "IEA",
+     "url": "https://www.iea.org/commentaries/wired-for-water-how-electrification-is-transforming-desalination"
+    }
+   }
+  ]
+ },
+ "events": [
+  {
+   "when": "Dec 8 to 10",
+   "year": "2026",
+   "name": "UN Water Conference",
+   "where": "Abu Dhabi National Exhibition Centre, UAE",
+   "url": "https://sdgs.un.org/conferences/water2026",
+   "start": "2026-12-08"
+  },
+  {
+   "when": "Feb 8 to 11",
+   "year": "2027",
+   "name": "Produced Water Society 37th Annual Conference",
+   "where": "Houston Marriott Sugar Land, Texas",
+   "url": "https://producedwatersociety.com/annual-events/",
+   "pws": true
+  },
+  {
+   "when": "Mar 9 to 12",
+   "year": "2027",
+   "name": "Aquatech Amsterdam",
+   "where": "RAI Amsterdam, Netherlands",
+   "url": "https://www.aquatechtrade.com/amsterdam"
+  },
+  {
+   "when": "Mar 22",
+   "year": "2027",
+   "name": "World Water Day",
+   "where": "Worldwide",
+   "url": "https://www.unwater.org/"
+  },
+  {
+   "when": "Apr 6 to 8",
+   "year": "2027",
+   "name": "IWA Global Utilities Summit",
+   "where": "Hong Kong",
+   "url": "https://www.iwa-network.org/events/iwa-global-utilities-summit"
+  },
+  {
+   "when": "Apr 11 to 15",
+   "year": "2027",
+   "name": "Produced Water Society, Middle East Edition",
+   "where": "Ad'darah, Dammam, Saudi Arabia",
+   "url": "https://producedwatersociety.com/calendar/",
+   "pws": true
+  },
+  {
+   "when": "Apr 19 to 21",
+   "year": "2027",
+   "name": "Produced Water Society 4th Annual African Conference",
+   "where": "Eko Hotel, Lagos, Nigeria",
+   "url": "https://producedwatersociety.com/4th-annual-african-conference/",
+   "pws": true
+  },
+  {
+   "when": "May 24 to 26",
+   "year": "2027",
+   "name": "Global Water Summit",
+   "where": "Prague Hilton Atrium, Czech Republic",
+   "url": "https://www.watermeetsmoney.com/venue"
+  },
+  {
+   "when": "Jun 1 to 2",
+   "year": "2027",
+   "name": "Produced Water Society, UK Edition",
+   "where": "Ardoe House Hotel and Spa, Aberdeen, Scotland",
+   "url": "https://producedwatersociety.com/calendar/",
+   "pws": true
+  },
+  {
+   "when": "Jun 13 to 16",
+   "year": "2027",
+   "name": "AWWA ACE27",
+   "where": "San Diego Convention Center, California",
+   "url": "https://ace.awwa.org/"
+  },
+  {
+   "when": "Aug 3 to 5",
+   "year": "2027",
+   "name": "Produced Water Society, Permian Basin",
+   "where": "Bush Convention Center, Midland, Texas",
+   "url": "https://producedwatersociety.com/calendar/",
+   "pws": true
+  },
+  {
+   "when": "Late August",
+   "year": "2027",
+   "name": "World Water Week",
+   "where": "Stockholm; theme: water for human and planetary health",
+   "url": "https://siwi.org/news/world-water-week-2026-what-five-days-in-stockholm-told-us-about-the-future-of-water"
+  },
+  {
+   "when": "Sep 16 to 17",
+   "year": "2027",
+   "name": "Produced Water Society, Argentina Edition",
+   "where": "Neuquén and Buenos Aires, Argentina",
+   "url": "https://producedwatersociety.com/calendar/",
+   "pws": true
+  },
+  {
+   "when": "Sep 25 to 29",
+   "year": "2027",
+   "name": "WEFTEC, WEF centennial",
+   "where": "McCormick Place, Chicago",
+   "url": "https://www.weftec.org"
+  },
+  {
+   "when": "Oct 4 to 8",
+   "year": "2027",
+   "name": "IWRA XX World Water Congress",
+   "where": "Istanbul, Türkiye",
+   "url": "https://www.iwra.org/iwra-xx-world-water-congress-2027"
+  },
+  {
+   "when": "November",
+   "year": "2027",
+   "name": "Produced Water Society, Asia Edition",
+   "where": "Host country and venue to be announced",
+   "url": "https://producedwatersociety.com/calendar/",
+   "pws": true
+  },
+  {
+   "when": "Late Nov or Dec",
+   "year": "2027",
+   "name": "Produced Water Society, UAE Edition",
+   "where": "City, venue and dates to be announced",
+   "url": "https://producedwatersociety.com/calendar/",
+   "pws": true
+  }
+ ],
+ "social": {
+  "kicker": "Morning: the wire",
+  "headline": "Nevada data centers' real water bill is the grid",
+  "points": [
+   "39 proposed sites, 16,530 MW by 2036",
+   "About 12,800 acre-feet a year for cooling",
+   "About 21,300 more to make their power"
+  ],
+  "watch": "Whether reclaimed water and closed loop cooling become permit conditions.",
+  "caption": "An updated Desert Research Institute study says proposed Nevada data centers could use about 12,800 acre-feet of water a year for cooling by 2036, and about 21,300 more at the power plants that supply them. Supply will come from groundwater, reclamation or transfers.\n\nFull edition: watercapitalwire.com\n\n#Water #DataCenters #Nevada #WaterSecurity #AI"
+ },
+ "social_slots": {
+  "afternoon": {
+   "kicker": "Afternoon: the capital",
+   "headline": "Cal Water becomes Watermark Utilities",
+   "points": [
+    "New name from Nov 30, ticker stays CWT",
+    "Serves more than 2.2 million people",
+    "Plans Nevada and Oregon entry by year end"
+   ],
+   "watch": "Which systems it buys first in its two new states.",
+   "caption": "California Water Service Group becomes Watermark Utilities on November 30, keeping the CWT ticker. The utility serves more than 2.2 million people in five states and plans to expand into Nevada and Oregon before year end.\n\nMore: watercapitalwire.com\n\n#WaterUtilities #Water #Infrastructure #Utilities #Investing"
+  },
+  "evening": {
+   "kicker": "Evening: the world",
+   "headline": "Saudi Arabia cancels WABAG's Yanbu desal award",
+   "points": [
+    "300 MLD seawater RO plant at Yanbu",
+    "About $272 million, awarded July 2025",
+    "Saudi Water Authority cited internal reasons"
+   ],
+   "watch": "Whether the Saudi Water Authority re-tenders the plant.",
+   "caption": "The Saudi Water Authority has cancelled the tender for a 300 million liter a day desalination plant at Yanbu, awarded to India's VA Tech Wabag for about $272 million in July 2025. WABAG disclosed the cancellation on November 14.\n\nMore: watercapitalwire.com\n\n#Desalination #SaudiArabia #Water #India #MiddleEast"
+  }
+ },
+ "place": {
+  "week_of": "Week of November 16",
+  "name": "Marina Barrage",
+  "location": "Singapore",
+  "art": "marina-barrage.svg",
+  "headline": "A dam in the middle of a city that people come to picnic on",
+  "body": [
+   "Marina Barrage closes the 350 meter wide Marina Channel with nine steel crest gates, keeping seawater out and turning the bay into Singapore's 15th reservoir and the first in the city center. Its catchment of about 10,000 hectares is the largest in the country, and the same structure protects low lying downtown streets from flooding.",
+   "The pump house is topped by a grass roof of about 11,000 square meters, open around the clock, where people fly kites, picnic and watch the skyline beside a solar installation. National water agency PUB counted close to 15 million visitors in the barrage's first ten years."
+  ],
+  "facts": [
+   {
+    "v": "2008",
+    "l": "Opened, October 31"
+   },
+   {
+    "v": "10,000 ha",
+    "l": "Catchment, Singapore's largest"
+   },
+   {
+    "v": "9",
+    "l": "Crest gates, each 26.5 m wide"
+   }
+  ],
+  "visit": "Free shuttle bus from Marina Bay MRT station. The green roof and public areas are open 24 hours.",
+  "why": "It is the clearest example anywhere of water infrastructure that pays a second dividend: supply, flood control and a public space in one asset.",
+  "sources": [
+   {
+    "name": "PUB",
+    "url": "https://pub.gov.sg/public/places-of-interest/marina-barrage"
+   },
+   {
+    "name": "National Library Board Singapore",
+    "url": "https://eresources.nlb.gov.sg/infopedia/articles/SIP_1388_2008-11-22.html"
+   },
+   {
+    "name": "National Archives of Singapore",
+    "url": "https://www.nas.gov.sg/archivesonline/data/pdfdoc/20180213011/MB10%20media%20release.pdf"
+   },
+   {
+    "name": "PUB visitor FAQ",
+    "url": "https://info.pub.gov.sg/marinabarrage/faqs"
+   },
+   {
+    "name": "Our Future Water",
+    "url": "https://medium.com/our-future-water/singapores-marina-barrage-turns-10-88a44dc69b4"
+   }
+  ]
+ }
+}
