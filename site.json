@@ -4,6 +4,7 @@
  "bing_site_verification": "",
  "publish_time": "04:17",
  "same_as": [
+  "https://www.instagram.com/watercapitalwire/",
   "https://www.linkedin.com/company/watercapitalwire/",
   "https://www.facebook.com/1468106023047747"
  ],
@@ -11,6 +12,11 @@
  "contact_email": "water@fiopoin.com",
  "qr_dark": "#0b1a2b",
  "follow": [
+  {
+   "key": "instagram",
+   "name": "Instagram",
+   "url": "https://www.instagram.com/watercapitalwire/"
+  },
   {
    "key": "linkedin",
    "name": "LinkedIn",
