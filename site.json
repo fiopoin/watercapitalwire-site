@@ -3,10 +3,24 @@
  "google_site_verification": "",
  "bing_site_verification": "",
  "publish_time": "04:17",
- "same_as": [],
+ "same_as": [
+  "https://www.linkedin.com/company/watercapitalwire/",
+  "https://www.facebook.com/1468106023047747"
+ ],
  "site_url": "https://watercapitalwire.com/",
  "contact_email": "water@fiopoin.com",
  "qr_dark": "#0b1a2b",
- "follow": [],
+ "follow": [
+  {
+   "key": "linkedin",
+   "name": "LinkedIn",
+   "url": "https://www.linkedin.com/company/watercapitalwire/"
+  },
+  {
+   "key": "facebook",
+   "name": "Facebook",
+   "url": "https://www.facebook.com/1468106023047747"
+  }
+ ],
  "indexnow_key": "e019ee25d0dd7e28c5bb93051c3967f6"
 }
