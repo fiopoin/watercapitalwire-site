@@ -90,6 +90,28 @@
    ]
   },
   {
+   "id": "ai",
+   "sector": "Technology",
+   "region": "United States",
+   "headline": "Chip stocks whipsaw over Nvidia's leadership, testing the AI build-out behind data center water demand",
+   "text": "Nvidia shares fell 14% on Friday, November 20, and the S&P 500 closed in a correction, extending a selloff that followed co-founder Jensen Huang's resignation as CEO on November 12. On Sunday, President Trump posted that he hoped Nvidia's board would rehire Huang. Nvidia rose about 9% in premarket trading Monday and Nasdaq futures gained about 3%. As of Monday morning the board had not announced a decision; CFO Colette Kress remains interim CEO.",
+   "why": "Data center and chip fab water demand, including the Nevada pipeline in today's lead, rides on AI capital spending. Watch whether cloud providers hold their build-out plans; suppliers such as Ecolab and Kurita sell water treatment into that cycle.",
+   "sources": [
+    {
+     "name": "Yahoo Finance, Nov 23, 2026",
+     "url": "https://finance.yahoo.com/markets/stocks/article/nvidia-stock-jumps-as-dc-makes-stunning-u-turn-on-jensen-huang-113419437.html"
+    },
+    {
+     "name": "Yahoo Finance markets live, Nov 23, 2026",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-091118583.html"
+    },
+    {
+     "name": "The San Francisco Standard, Nov 12, 2026",
+     "url": "https://sfstandard.com/2026/11/12/nvidia-shares-tumble-as-wall-street-reacts-huang-s-exit/"
+    }
+   ]
+  },
+  {
    "id": "desal",
    "sector": "Desalination",
    "region": "Saudi Arabia",

@@ -6,6 +6,7 @@
 - [Nevada's planned data centers could use 4 billion gallons a year to cool, and power plants nearly twice that](https://watercapitalwire.com/): November 23, 2026. A new Desert Research Institute study finds 39 proposed Nevada data centers could use about 4 billion gallons a year for cooling by 2036, while the power plants serving them would consume nearly twice as much water again.
 - [Capital: Diamondback and KKR buy out Five Point to own all of the Deep Blue water network](https://watercapitalwire.com/#money)
 - [Security: Fiji declares a nationwide state of disaster as El Niño drought reaches crisis level](https://watercapitalwire.com/#world)
+- [Technology: Chip stocks whipsaw over Nvidia's leadership, testing the AI build-out behind data center water demand](https://watercapitalwire.com/#ai)
 - [Desalination: Saudi Water Authority cancels Wabag's $272 million Yanbu desalination award, again](https://watercapitalwire.com/#desal)
 - [Capital: Air Water Ventures agrees to buy Proud Source Water for up to $150 million](https://watercapitalwire.com/#bottled)
 
