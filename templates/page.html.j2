@@ -185,7 +185,7 @@
  <div class="wrap">
   <div class="head"><h2>Water place of the week</h2><p>{{ pl.week_of }}. One site where water engineering is worth seeing in person.</p></div>
   <div class="pl">
-   <figure><img src="{{ root }}assets/art/{{ pl.art }}" width="960" height="600" alt="Illustration of {{ pl.name }}: a gated dam separating a city reservoir from the sea, with a grass roof and skyline behind" loading="lazy"><figcaption>Illustration by Water Capital Wire</figcaption></figure>
+   <figure><img src="{{ root }}assets/art/{{ pl.art }}" width="960" height="600" alt="{{ pl.art_alt or ('Illustration of ' ~ pl.name) }}" loading="lazy"><figcaption>Illustration by Water Capital Wire</figcaption></figure>
    <div>
     <p class="kick">{{ pl.location }}</p>
     <h3>{{ pl.name }}</h3>
