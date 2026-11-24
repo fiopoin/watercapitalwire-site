@@ -3,12 +3,12 @@
 > A free daily read on the business of water for managers, investors and operators: capital, companies, technology, infrastructure and water security, with every fact sourced and dated. Each edition has a lead story traced through the water cycle (source, treatment, use, reuse, discharge), briefs across the water economy, weekly spotlights on a company, a leader, a supplier, an innovation and an investor, a capital desk of deals and firms, a water atlas on stress, demand, infrastructure, emerging sectors and security, a watchlist of water equities, a project calculator and an events calendar. General information, not investment advice.
 
 ## Today's edition
-- [Nevada's planned data centers could use 4 billion gallons a year to cool, and power plants nearly twice that](https://watercapitalwire.com/): November 23, 2026. A new Desert Research Institute study finds 39 proposed Nevada data centers could use about 4 billion gallons a year for cooling by 2036, while the power plants serving them would consume nearly twice as much water again.
-- [Capital: Diamondback and KKR buy out Five Point to own all of the Deep Blue water network](https://watercapitalwire.com/#money)
-- [Security: Fiji declares a nationwide state of disaster as El Niño drought reaches crisis level](https://watercapitalwire.com/#world)
-- [Technology: Chip stocks whipsaw over Nvidia's leadership, testing the AI build-out behind data center water demand](https://watercapitalwire.com/#ai)
-- [Desalination: Saudi Water Authority cancels Wabag's $272 million Yanbu desalination award, again](https://watercapitalwire.com/#desal)
-- [Capital: Air Water Ventures agrees to buy Proud Source Water for up to $150 million](https://watercapitalwire.com/#bottled)
+- [Texas Pacific Land agrees to buy EagleRock for about $3 billion in stock to widen its Permian water platform](https://watercapitalwire.com/): November 24, 2026. Texas Pacific Land agreed to buy EagleRock Land in an all-stock deal worth about $3 billion, adding 59,000 acres and Midland Basin water assets. Combined water sourcing and treatment capacity rises to about 1.5 million barrels a day.
+- [Capital: California Water Service places $275 million of debt a week before becoming Watermark Utilities](https://watercapitalwire.com/#money)
+- [Regulation: UN General Assembly agrees to hold a water conference every three years from 2031](https://watercapitalwire.com/#world)
+- [Security: Satellite images show river diversion under way at China's 60 GW Yarlung Tsangpo dam near India](https://watercapitalwire.com/#dam)
+- [Security: Free cyber defense for rural water utilities now reaches 26 states](https://watercapitalwire.com/#cyber)
+- [Utilities: San Antonio eases to Stage 2 watering rules as the Edwards Aquifer recovers](https://watercapitalwire.com/#saws)
 
 ## About
 - [How we work](https://watercapitalwire.com/method.html)
@@ -17,6 +17,7 @@
 - [Sitemap](https://watercapitalwire.com/sitemap.xml)
 
 ## Recent editions
+- [November 24, 2026: Texas Pacific Land agrees to buy EagleRock for about $3 billion in stock to widen its Permian water platform](https://watercapitalwire.com/archive/2026-11-24.html)
 - [November 23, 2026: Nevada's planned data centers could use 4 billion gallons a year to cool, and power plants nearly twice that](https://watercapitalwire.com/archive/2026-11-23.html)
 - [November 22, 2026: Durham has paid over $4 million for borrowed water as North Carolina's drought reaches 6.2 million people](https://watercapitalwire.com/archive/2026-11-22.html)
 - [November 21, 2026: Nevada's data center boom could need about 34,000 acre-feet of water a year, most of it at power plants](https://watercapitalwire.com/archive/2026-11-21.html)
