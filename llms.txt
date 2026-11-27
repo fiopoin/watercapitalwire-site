@@ -3,11 +3,11 @@
 > A free daily read on the business of water for managers, investors and operators: capital, companies, technology, infrastructure and water security, with every fact sourced and dated. Each edition has a lead story traced through the water cycle (source, treatment, use, reuse, discharge), briefs across the water economy, weekly spotlights on a company, a leader, a supplier, an innovation and an investor, a capital desk of deals and firms, a water atlas on stress, demand, infrastructure, emerging sectors and security, a watchlist of water equities, a project calculator and an events calendar. General information, not investment advice.
 
 ## Today's edition
-- [Ninth Circuit says California owed water rights holders a hearing before its 2021 drought cutoffs](https://watercapitalwire.com/): November 26, 2026. A unanimous Ninth Circuit panel ruled that California's 2021 drought curtailments on Deer Creek and Mill Creek targeted a few identifiable rights holders, so they were owed a meaningful hearing first.
-- [Capital: Sciens Water buys Roberts Filter Group, a filtration maker founded in 1889, as its third platform](https://watercapitalwire.com/#money)
-- [Regulation: UN General Assembly makes the water conference a fixture, every three years from 2031](https://watercapitalwire.com/#world)
-- [Technology: Cheyenne's utility says data centers took about 2% of its water sales in 2025](https://watercapitalwire.com/#cheyenne)
-- [Utilities: UK says water supply no longer stalls any planned Greater Cambridge development](https://watercapitalwire.com/#cambridge)
+- [Federal money for Colorado River water conservation fell by more than 70%, a new report finds](https://watercapitalwire.com/): November 27, 2026. Federal spending on Colorado River Basin water conservation fell from $675 million to $200 million across five programs in 18 months, a new report finds, as basin states still lack a deal on post-2026 rules.
+- [Capital: WaterSense raises €5.75 million in pre-seed money and grants for sensor-based river monitoring](https://watercapitalwire.com/#money)
+- [Reuse: The world added 21.1 million m³ a day of water reuse capacity in 2025, led by record additions in China](https://watercapitalwire.com/#world)
+- [Utilities: Thames Water is in the High Court today asking to put its debt extension to creditors](https://watercapitalwire.com/#thames)
+- [Technology: Texas lawmakers file data center bills, two aimed at water use, ahead of the 2027 session](https://watercapitalwire.com/#texas)
 
 ## About
 - [How we work](https://watercapitalwire.com/method.html)
@@ -16,6 +16,7 @@
 - [Sitemap](https://watercapitalwire.com/sitemap.xml)
 
 ## Recent editions
+- [November 27, 2026: Federal money for Colorado River water conservation fell by more than 70%, a new report finds](https://watercapitalwire.com/archive/2026-11-27.html)
 - [November 26, 2026: Ninth Circuit says California owed water rights holders a hearing before its 2021 drought cutoffs](https://watercapitalwire.com/archive/2026-11-26.html)
 - [November 25, 2026: Enverus says about 90% of AI's water footprint is consumed at the power plant, not the data center](https://watercapitalwire.com/archive/2026-11-25.html)
 - [November 24, 2026: Texas Pacific Land agrees to buy EagleRock for about $3 billion in stock to widen its Permian water platform](https://watercapitalwire.com/archive/2026-11-24.html)
