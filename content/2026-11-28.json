@@ -1,0 +1,884 @@
+{
+ "date": "2026-11-28",
+ "date_long": "November 28, 2026",
+ "edition": 9,
+ "lead": {
+  "kicker": "Utilities and resilience",
+  "stages": [
+   "source",
+   "treat",
+   "use"
+  ],
+  "headline": "A Thanksgiving storm cut power at WSSC Water's main plant, its third conservation alert of 2026",
+  "dek": "The Maryland utility asked 1.9 million customers to use water for essentials only for about 18 hours, and says $155 million of electrical upgrades at its Potomac plant are already identified.",
+  "body": [
+   "WSSC Water asked its 1.9 million customers in Montgomery and Prince George's counties, Maryland, to use water for essential needs only from 2:30 p.m. on Thanksgiving Day, November 26, until 8:30 a.m. on Friday, November 27. A fallen tree brought down a power line feeding the Potomac Water Filtration Plant, which went offline briefly, according to chief operating officer Priscilla To, as reported by WUSA9. The utility said water stayed safe to drink and no boil advisory was needed.",
+   "The backup, the Patuxent Water Filtration Plant, was partway through a three week maintenance shutdown that WSSC usually schedules in the fall. Crews restarted it to add redundancy, and the utility said it would decide the following week whether to resume the work. The storm also caused intermittent power disruptions at both plants, FOX 5 DC reported, and by Friday morning WSSC said both were producing enough safe water to meet demand.",
+   "It was the third such request this year, after a six day alert in January tied to freezing weather and main breaks and a 32 hour restriction in late September when old electrical equipment failed at Potomac. WSSC has identified $155 million in electrical upgrades at Potomac, about $133 million of it priority work it wants to speed up, and is studying on-site power generation there. It is seeking outside and federal funding to keep bills affordable."
+  ],
+  "pipe": {
+   "source": "The Potomac River feeds the Potomac plant; the Patuxent reservoirs feed the second plant.",
+   "treat": "A downed power line briefly took the Potomac plant offline while Patuxent was down for maintenance.",
+   "use": "1.9 million customers were asked to limit flushing, laundry and dishes to protect storage and fire flow.",
+   "reuse": "Not a factor in this event; the issue was power supply to treatment.",
+   "discharge": "Wastewater service was not reported as affected."
+  },
+  "use": [
+   {
+    "who": "Utility managers",
+    "text": "Check that backup plant maintenance is not scheduled into storm season."
+   },
+   {
+    "who": "Boards and regulators",
+    "text": "Power resilience at plants is now a rate case line item."
+   },
+   {
+    "who": "Equipment suppliers",
+    "text": "Switchgear and on-site generation work at Potomac is coming."
+   },
+   {
+    "who": "Investors",
+    "text": "Watch how WSSC funds $155 million of electrical upgrades."
+   }
+  ],
+  "sources": [
+   {
+    "name": "WUSA9 via Yahoo News, Nov 27, 2026",
+    "url": "https://www.yahoo.com/news/us/articles/wssc-water-defends-system-reliability-191149022.html"
+   },
+   {
+    "name": "FOX 5 DC, Nov 27, 2026",
+    "url": "https://www.fox5dc.com/news/wssc-waters-essential-water-use-only-request-continues-1-9-million-maryland-customers"
+   },
+   {
+    "name": "WSSC Water, Nov 27, 2026",
+    "url": "https://www.wsscwater.com/news/2026/november/final-update-830-am-friday-november-27-2026-essential-water-use-only-request"
+   }
+  ]
+ },
+ "briefs": [
+  {
+   "id": "money",
+   "sector": "Capital",
+   "region": "Tunisia",
+   "headline": "African Development Bank lends €71 million for a wastewater treatment and reuse complex in Monastir",
+   "text": "The African Development Bank's board approved on November 25 a €71 million loan for a wastewater treatment and reuse complex in Monastir, Tunisia, announced November 27. The project costs €97.91 million in total; the Rome Process and Mattei Plan Financing Facility adds a €17 million loan and a €1.2 million grant, and the national sanitation office ONAS, which leads the work, puts in €8.71 million. The plant is meant to raise treatment capacity, supply treated water to farms and factories in a region with a large textile industry, and cut pollution into the Mediterranean.",
+   "why": "Blended European and development bank money is becoming the standard way North African reuse projects get financed.",
+   "sources": [
+    {
+     "name": "QNC News, Nov 28, 2026",
+     "url": "https://qncnews.com/2026/11/28/african-development-bank-commits-71-million-euros-to-wastewater-treatment-and-reuse-project-in-monastir/"
+    }
+   ]
+  },
+  {
+   "id": "world",
+   "sector": "Desalination",
+   "region": "Global",
+   "headline": "Desalination contract awards are set to fall to 4.5 million m³ a day this year despite a record pipeline",
+   "text": "About 4.1 million cubic meters a day of desalination capacity had been awarded in 2026 as of the IDRA Desalination and Reuse Handbook 2026-2027, released November 26, and the total is expected to reach about 4.5 million by year end, down from more than 6 million in 2025. Conflict has constrained Gulf activity since March, and large Gulf tenders that drew four to six bidders now typically draw one to three. Mega plant build prices have risen to about $1,000 per m³ a day of capacity from $700 before the pandemic, and no award in the past year beat Dubai's Hassyan benchmark tariff of $0.365 per m³. Morocco is now the second largest five year opportunity after Saudi Arabia.",
+   "why": "Fewer bidders and higher build costs mean the delayed Gulf tenders, when they come, may price above recent benchmarks.",
+   "sources": [
+    {
+     "name": "Global Water Intelligence via GlobeNewswire, Nov 26, 2026",
+     "url": "https://www.financialcontent.com/article/gnwcq-2026-11-26-desalination-contract-awards-expected-to-fall-to-45-million-md-despite-record-pipeline-finds-idra-handbook-2026-2027"
+    }
+   ]
+  },
+  {
+   "id": "pakistan",
+   "sector": "Agriculture",
+   "region": "Pakistan",
+   "headline": "ADB approves $468 million for irrigation and flash flood projects in Pakistan",
+   "text": "The Asian Development Bank approved two concessional loans totaling $468 million for water and farming projects reaching about 728,000 people, The Nation reported November 28. A $208 million loan funds resilient irrigation and farm technology in the Nowshera, Swabi and Upper Chitral districts of Khyber Pakhtunkhwa, with a role for women in water governance. A $260 million loan funds hill torrent management in Punjab: flash flood mitigation, floodwater harvesting, spate irrigation and aquifer recharge.",
+   "why": "Capturing flash floods for irrigation and recharge is a growing share of development bank water lending in South Asia.",
+   "sources": [
+    {
+     "name": "The Nation, Nov 28, 2026",
+     "url": "https://www.nation.com.pk/28-Nov-2026/adb-approves-dollar-468m-loans-water-agri-projects-kp-punjab"
+    }
+   ]
+  },
+  {
+   "id": "bangladesh",
+   "sector": "Utilities",
+   "region": "Bangladesh",
+   "headline": "A $150 million ADB loan will build water networks with smart meters in eight Bangladeshi towns",
+   "text": "The Asian Development Bank approved a $150 million concessional loan for water supply and sanitation in eight fast growing Bangladeshi towns serving about 900,000 people, Xinhua reported November 27. The project covers about 1,790 kilometers of distribution pipe and 65,000 new or rehabilitated household connections with smart meters, plus household latrines and public sanitation run by women residents. The government adds $46 million, a separate $1 million package supports utility governance reform, and completion is expected in December 2032.",
+   "why": "Metering every new connection from the start is how lenders now try to keep non-revenue water low in new systems.",
+   "sources": [
+    {
+     "name": "Xinhua, Nov 27, 2026",
+     "url": "https://english.news.cn/asiapacific/20261127/3f68efb0b5664dae88ec09816d1bd4df/c.html"
+    }
+   ]
+  },
+  {
+   "id": "illinois",
+   "sector": "Technology",
+   "region": "United States",
+   "headline": "An Illinois bill would bar data centers from charging cooling systems with sole-source aquifer water",
+   "text": "Illinois state Sen. Chapin Rose filed Senate Bill 4242, the Data Center Transparency and Aquifer Protection Act, The News-Gazette reported November 27. It would bar data centers from using water from the Mahomet Aquifer or any other sole-source aquifer to initially charge or recharge cooling systems, let the state shut down a data center on a community supply if falling groundwater threatens existing customers, and require water use reporting and impact reviews. It also requires public notice and a hearing before local governments negotiate with a proposed data center and limits nondisclosure agreements.",
+   "why": "It follows bills filed in Texas this month; state rules on data center water are arriving before federal ones.",
+   "sources": [
+    {
+     "name": "The News-Gazette, Nov 27, 2026",
+     "url": "https://www.news-gazette.com/news/local/politics/rose-files-bill-targeting-data-center-water-use-transparency/article_6bbf3f11-3911-4ace-926e-4dae2e57fdb6.html"
+    }
+   ]
+  }
+ ],
+ "spotlight": {
+  "company": {
+   "week_of": "Week of November 23",
+   "name": "VA Tech Wabag",
+   "headline": "Wabag's order book passed ₹20,000 crore, then Saudi Arabia pulled a big one",
+   "figs": [
+    {
+     "v": "₹20,200 cr",
+     "l": "Order book, about 4.7x revenue"
+    },
+    {
+     "v": "+29%",
+     "l": "H1 FY27 net profit"
+    }
+   ],
+   "body": "The Chennai based water treatment and desalination contractor reported first half revenue up 20% to about ₹1,887 crore and net profit up 29% to about ₹195 crore for the period to September 30, with net cash for a 15th straight quarter. Chairman and managing director Rajiv Mittal pointed to two large desalination orders, a seawater plant in Kuwait and a plant at Jamnagar in India. Management said revenue growth could reach the top of its 15% to 20% guidance. Nine days later the Saudi Water Authority cancelled the 300,000 cubic meter a day Yanbu award, and the company said it is seeking the reasons before deciding next steps.",
+   "sources": [
+    {
+     "name": "Investywise, Nov 5, 2026",
+     "url": "https://www.investywise.com/va-tech-wabag-limited-financial-results-for-q2-fy27"
+    },
+    {
+     "name": "Kotak Neo, Nov 16, 2026",
+     "url": "https://www.kotakneo.com/news/stocks/va-tech-wabag-saudi-order-update/"
+    }
+   ]
+  },
+  "leader": {
+   "week_of": "Week of November 23",
+   "name": "Yang Seung-jo",
+   "role": "Chief executive, Korea Water Resources Corporation (K-water)",
+   "figs": [
+    {
+     "v": "600,000 m³",
+     "l": "Daily supply planned for Honam fabs"
+    },
+    {
+     "v": "1.06M m³",
+     "l": "Daily facility capacity planned"
+    }
+   ],
+   "body": "Yang has started his term at K-water's helm on the chip file. His first official field trip, on November 18, was to SK hynix's Yongin cluster to discuss timely supply and plans to localize ultrapure water production. On November 20 he inspected Juam and Dongbok dams, the main sources for the planned Honam semiconductor complex, where K-water plans to supply about 600,000 cubic meters a day and build 1.06 million of capacity to cover future demand and drought. Dongbok Dam is being raised 15 meters so it can send 300,000 cubic meters a day to the complex.",
+   "sources": [
+    {
+     "name": "Seoul Economic Daily, Nov 22, 2026",
+     "url": "https://en.sedaily.com/economy/2026/11/22/k-water-ceo-inspects-water-supply-for-honam-chip-cluster"
+    }
+   ]
+  },
+  "supplier": {
+   "week_of": "Week of November 23",
+   "name": "Kemira",
+   "kicker": "Water treatment chemistry",
+   "headline": "Kemira is buying its way into industrial water services while raw material costs squeeze margins",
+   "figs": [
+    {
+     "v": "€331M",
+     "l": "Water Solutions revenue, Q3"
+    },
+    {
+     "v": "15.9%",
+     "l": "Group operative EBITDA margin, Q3"
+    }
+   ],
+   "body": [
+    "Kemira, the Helsinki based maker of coagulants, flocculants and other chemicals for water intensive industries, employs about 4,900 people. On October 23 it reported third quarter revenue of €709 million, up 3%, with flat organic growth and about €18 million added by acquisitions. Chief executive Antti Salminen kept full year guidance of €2.6 to €3.0 billion in revenue and €400 to €500 million in operative EBITDA.",
+    "Water Solutions, its largest segment, grew revenue 5% to €331 million, mainly through acquisitions, with a 19.7% operative EBITDA margin. Kemira closed the purchase of Nebraska based Water Engineering, an industrial water treatment services firm serving food and beverage, manufacturing and healthcare, in October 2025, then added ANMAC Water Treatment Service and Italy's REPUR, which provides activated carbon services, in the third quarter.",
+    "The pressure is on costs. Group operative EBITDA margin fell to 15.9% from 20.0% as variable costs rose €35 million against €11 million of price increases, and Kemira puts the gross 2026 cost impact of the Middle East conflict at about €100 million, roughly half of it mitigated. On November 23 it said it will invest in a venture fund to back startup innovation."
+   ],
+   "why": "Activated carbon and service contracts put Kemira closer to the PFAS and industrial reuse spending wave. Watch whether price increases catch up with input costs in 2027.",
+   "sources": [
+    {
+     "name": "Investing.com, Oct 23, 2026",
+     "url": "https://www.investing.com/news/company-news/kemira-q3-2026-slides-revenue-rises-but-margins-hit-by-cost-inflation-93CH-4968255"
+    },
+    {
+     "name": "Kemira, Oct 24, 2025",
+     "url": "https://www.kemira.com/news-and-stories/newsroom/releases/kemira-completes-the-acquisition-of-water-engineering-inc/"
+    },
+    {
+     "name": "Kemira",
+     "url": "https://www.kemira.com/"
+    },
+    {
+     "name": "GuruFocus via Yahoo Finance, Oct 24, 2026",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/kemira-oyj-koyjf-q3-2026-230203820.html"
+    }
+   ]
+  },
+  "innovation": {
+   "week_of": "Week of November 23",
+   "name": "University of Rochester",
+   "headline": "A Rochester lab desalinates seawater without leaving brine behind",
+   "figs": [
+    {
+     "v": "~100%",
+     "l": "Dissolved salts recovered as solids"
+    },
+    {
+     "v": "~50%",
+     "l": "Lithium recovered from leftover salts"
+    }
+   ],
+   "body": "Most desalination plants send concentrated brine back to the sea. A team led by Chunlei Guo at the University of Rochester's Institute of Optics built a solar thermal system that uses no chemical additives and discharges no liquid brine, extracting nearly 100% of the dissolved salts in solid form. It tested real seawater from the Pacific, Atlantic and Indian Oceans and published the work in Light: Science & Applications. A related study recovered about half the lithium in salts left after desalination, using Great Salt Lake samples. The work is at laboratory stage, and the release gives no flow rate or cost figures.",
+   "sources": [
+    {
+     "name": "ScienceDaily, Sep 16, 2026",
+     "url": "https://www.sciencedaily.com/releases/2026/09/260915100137.htm"
+    }
+   ]
+  },
+  "investor": {
+   "week_of": "Week of November 23",
+   "name": "Emerald Technology Ventures",
+   "headline": "A Zurich venture firm that brought the water majors in as backers",
+   "figs": [
+    {
+     "v": "€100M",
+     "l": "Global Water Fund II, Mar 2026"
+    },
+    {
+     "v": "€150M to €180M",
+     "l": "Fund II target"
+    }
+   ],
+   "body": "Founded in 2000, Emerald manages and advises over €1 billion from offices in Zurich, Toronto and Singapore. Its second water fund reached €100 million in March after Temasek and the Grundfos Foundation joined anchor investors Veralto and Ecolab, with SKion Water and Oxy Technology Ventures. The first water fund closed in 2020 at $100 million. It backs early to growth stage companies in treatment, reuse, monitoring and emerging contaminants, and lists exits to SUEZ, Xylem and BASF. Helge Daebel heads the water practice.",
+   "sources": [
+    {
+     "name": "GlobeNewswire, Mar 10, 2026",
+     "url": "https://www.globenewswire.com/news-release/2026/03/10/3252555/0/en/Emerald-Global-Water-Fund-II-reaches-100-Million.html"
+    },
+    {
+     "name": "Water Online, Oct 30, 2025",
+     "url": "https://www.wateronline.com/doc/emerald-announces-m-first-close-of-global-water-fund-ii-0001"
+    }
+   ]
+  }
+ },
+ "capital": {
+  "intro": "Private equity has executed 435 water deals across 25 countries since 2015 and more than doubled its holdings since 2019, according to Bluefield Research. Most of those assets are under three years old, which points to an exit wave.",
+  "intro_source": {
+   "name": "Bluefield Research",
+   "url": "https://www.bluefieldresearch.com/?p=39315"
+  },
+  "deals": [
+   {
+    "date": "Nov 26, 2026",
+    "deal": "Concessional loan for water and sanitation in eight towns",
+    "who": "Asian Development Bank, Bangladesh",
+    "value": "$150M",
+    "source": {
+     "name": "Xinhua",
+     "url": "https://english.news.cn/asiapacific/20261127/3f68efb0b5664dae88ec09816d1bd4df/c.html"
+    }
+   },
+   {
+    "date": "Nov 25, 2026",
+    "deal": "Loan for Monastir wastewater treatment and reuse complex",
+    "who": "African Development Bank, ONAS (Tunisia)",
+    "value": "€71M of €97.91M total",
+    "source": {
+     "name": "QNC News",
+     "url": "https://qncnews.com/2026/11/28/african-development-bank-commits-71-million-euros-to-wastewater-treatment-and-reuse-project-in-monastir/"
+    }
+   },
+   {
+    "date": "Nov 26, 2026",
+    "deal": "Pre-seed round and grants for river monitoring",
+    "who": "WaterSense (b2venture, Movens Capital)",
+    "value": "€5.75M incl. €3.5M grant",
+    "source": {
+     "name": "Unite.AI",
+     "url": "https://www.unite.ai/watersense-raises-5-75m-in-pre-seed-and-grants-for-ai-water-monitoring/"
+    }
+   },
+   {
+    "date": "Nov 23, 2026",
+    "deal": "EagleRock Land acquisition agreed",
+    "who": "Texas Pacific Land",
+    "value": "About $3B, all stock",
+    "source": {
+     "name": "World Oil",
+     "url": "https://www.worldoil.com/news/2026/11/23/texas-pacific-land-agrees-3-billion-eaglerock-deal-to-scale-permian-water-platform/"
+    }
+   },
+   {
+    "date": "Nov 23, 2026",
+    "deal": "$275M of notes and first mortgage bonds placed",
+    "who": "California Water Service Group",
+    "value": "$275M",
+    "source": {
+     "name": "GlobeNewswire",
+     "url": "https://www.globenewswire.com/news-release/2026/11/23/3408895/0/en/california-water-service-group-finalizes-sale-of-125-million-of-senior-unsecured-notes-and-california-water-service-company-finalizes-sale-of-150-million-of-first-mortgage-bonds.html"
+    }
+   },
+   {
+    "date": "Nov 18, 2026",
+    "deal": "Indian Creek Valley Water Authority system acquired",
+    "who": "Pennsylvania American Water",
+    "value": "$32.8M",
+    "source": {
+     "name": "PR Newswire",
+     "url": "https://finviz.com/news/424949/pennsylvania-american-water-completes-acquisition-of-the-indian-creek-valley-water-authority-water-system"
+    }
+   },
+   {
+    "date": "Nov 17, 2026",
+    "deal": "Proud Source Water acquisition agreed",
+    "who": "Air Water Ventures",
+    "value": "Up to $150M",
+    "source": {
+     "name": "FoodBev Media",
+     "url": "https://www.foodbev.com/news/air-water-ventures-to-acquire-proud-source-water-in-150m-deal"
+    }
+   },
+   {
+    "date": "Nov 10, 2026",
+    "deal": "Five Point's 70% of Deep Blue Midland Basin",
+    "who": "Diamondback Energy and KKR",
+    "value": "About $2.1B (reported)",
+    "source": {
+     "name": "Oil & Gas Journal",
+     "url": "https://www.ogj.com/general-interest/companies/news/55417839/diamondback-kkr-to-jointly-own-entirety-of-midland-basin-water-network-deep-blue"
+    }
+   }
+  ],
+  "firm": {
+   "name": "Sciens Water",
+   "type": "Private equity, US water only",
+   "base": "New York",
+   "headline": "Sciens Water builds platforms, from small utilities to century-old filter makers",
+   "figs": [
+    {
+     "v": "3",
+     "l": "Water platforms"
+    },
+    {
+     "v": "2018",
+     "l": "First water fund launched"
+    }
+   ],
+   "body": "Sciens Water is the water arm of Sciens Capital Management, an alternative asset manager founded in 1994. Its first platform, Central States Water Resources of St. Louis, is a regulated utility that buys and rehabilitates small, struggling water and wastewater systems. The second, Veyra of Austin, formerly Integrated Water Services, sells decentralized treatment and added reverse osmosis through acquisitions this year. In November, through Fund II, it bought Roberts Filter Group, a Pennsylvania maker of gravity filters founded in 1889, to serve large utilities. John Rigas is chairman and CEO.",
+   "sources": [
+    {
+     "name": "PR Newswire via Yahoo Finance, Nov 12, 2026",
+     "url": "https://finance.yahoo.com/energy/articles/sciens-water-acquires-roberts-filter-220000737.html"
+    },
+    {
+     "name": "Smart Water Magazine, Nov 18, 2026",
+     "url": "https://smartwatermagazine.com/news/smart-water-magazine/sciens-water-acquires-roberts-filter-group-to-serve-large-utilities-worldwide"
+    }
+   ]
+  }
+ },
+ "watchlist": [
+  {
+   "ticker": "XYL",
+   "name": "Xylem",
+   "seg": "Pumps, treatment, metering",
+   "note": "Reshaping into three segments in 2027"
+  },
+  {
+   "ticker": "ECL",
+   "name": "Ecolab",
+   "seg": "Treatment chemistry",
+   "note": "High-Tech water for fabs and data centers"
+  },
+  {
+   "ticker": "VIE (Paris)",
+   "name": "Veolia",
+   "seg": "Utilities and water technology",
+   "note": "Gulf desalination wins; US hazardous waste push"
+  },
+  {
+   "ticker": "VLTO",
+   "name": "Veralto",
+   "seg": "Water quality and testing",
+   "note": "Cleanwater1 purchase expected to close in Q4"
+  },
+  {
+   "ticker": "AWK",
+   "name": "American Water Works",
+   "seg": "Regulated utility",
+   "note": "Illinois rate order: $74M of $127M asked"
+  },
+  {
+   "ticker": "WTRG",
+   "name": "Essential Utilities",
+   "seg": "Regulated utility",
+   "note": "Being acquired by American Water"
+  },
+  {
+   "ticker": "HTO",
+   "name": "H2O America",
+   "seg": "Regulated utility",
+   "note": "Texas expansion through Quadvest"
+  },
+  {
+   "ticker": "CWT",
+   "name": "California Water Service",
+   "seg": "Regulated utility",
+   "note": "$275M debt placed; Watermark Utilities from Nov 30"
+  },
+  {
+   "ticker": "PNR",
+   "name": "Pentair",
+   "seg": "Residential and commercial",
+   "note": "Pool and water treatment"
+  },
+  {
+   "ticker": "WTS",
+   "name": "Watts Water",
+   "seg": "Building water systems",
+   "note": "Flow control inside buildings"
+  },
+  {
+   "ticker": "BMI",
+   "name": "Badger Meter",
+   "seg": "Smart metering",
+   "note": "Utility metering and software"
+  },
+  {
+   "ticker": "MWA",
+   "name": "Mueller Water Products",
+   "seg": "Valves, hydrants, pipe",
+   "note": "Aging network replacement"
+  },
+  {
+   "ticker": "ERII",
+   "name": "Energy Recovery",
+   "seg": "Desalination energy recovery",
+   "note": "Pressure exchangers for reverse osmosis"
+  },
+  {
+   "ticker": "6370 (Tokyo)",
+   "name": "Kurita Water",
+   "seg": "Chemistry and services",
+   "note": "Ultrapure water; new India joint venture"
+  },
+  {
+   "ticker": "PHO, CGW, FIW",
+   "name": "Water ETFs",
+   "seg": "Funds",
+   "note": "Invesco and First Trust water baskets"
+  }
+ ],
+ "atlas": {
+  "stress": {
+   "title": "A quarter of humanity lives in extremely water stressed countries",
+   "intro": "Twenty five countries, home to one quarter of the world's population, use more than 80% of their renewable water supply every year. Even a short drought puts them at risk of running out.",
+   "regions": [
+    {
+     "name": "Middle East and North Africa",
+     "pct": 83,
+     "note": "Rises to 100% by 2050"
+    },
+    {
+     "name": "South Asia",
+     "pct": 74,
+     "note": "India carries most of the exposure"
+    }
+   ],
+   "regions_label": "Share of population exposed to extremely high water stress",
+   "facts": [
+    {
+     "v": "4 billion",
+     "l": "People facing high water stress at least one month a year"
+    },
+    {
+     "v": "$70T",
+     "l": "GDP exposed to high water stress by 2050, 31% of the world total"
+    },
+    {
+     "v": "60%",
+     "l": "Irrigated agriculture facing extremely high water stress"
+    }
+   ],
+   "hotspots": "Most stressed: Bahrain, Cyprus, Kuwait, Lebanon, Oman and Qatar. India, Mexico, Egypt and Turkey hold over half of the GDP exposed by 2050.",
+   "sources": [
+    {
+     "name": "WRI Aqueduct",
+     "url": "https://www.wri.org/insights/highest-water-stressed-countries"
+    },
+    {
+     "name": "WRI",
+     "url": "https://www.wri.org/insights/17-countries-home-one-quarter-worlds-population-face-extremely-high-water-stress"
+    },
+    {
+     "name": "Smart Water Magazine",
+     "url": "https://smartwatermagazine.com/news/world-resources-institute-wri/25-countries-housing-one-quarter-population-face-extremely-high"
+    }
+   ]
+  },
+  "demand": {
+   "title": "Demand keeps climbing as the world adds two billion people",
+   "intro": "Global water demand has more than doubled since 1960 and has grown by just under 1% a year since the 1980s. The UN expects the population to rise from 8.2 billion in 2024 to a peak of about 10.3 billion in the mid 2080s.",
+   "pop": [
+    {
+     "y": "2024",
+     "v": 8.2
+    },
+    {
+     "y": "Mid 2080s peak",
+     "v": 10.3
+    },
+    {
+     "y": "2100",
+     "v": 10.2
+    }
+   ],
+   "facts": [
+    {
+     "v": "+20 to 25%",
+     "l": "Global water demand growth by 2050"
+    },
+    {
+     "v": "+163%",
+     "l": "Sub-Saharan Africa demand growth by 2050"
+    },
+    {
+     "v": "40%",
+     "l": "Shortfall of freshwater supply against demand by 2030 under current trends"
+    }
+   ],
+   "sources": [
+    {
+     "name": "UN World Population Prospects 2024",
+     "url": "https://population.un.org/WPP/Publications/Files/WPP2024_Key-Messages.pdf"
+    },
+    {
+     "name": "WRI",
+     "url": "https://www.wri.org/insights/17-countries-home-one-quarter-worlds-population-face-extremely-high-water-stress"
+    },
+    {
+     "name": "World Economic Forum",
+     "url": "https://www.weforum.org/stories/2023/08/countries-extremely-high-water-stress/"
+    },
+    {
+     "name": "UN concept paper citing UN WWDR 2024",
+     "url": "https://sdgs.un.org/sites/default/files/2026-09/26-01371%20ATT%20Concept%20Paper%20UNWC_IDB.pdf"
+    },
+    {
+     "name": "Global Commission on the Economics of Water via WEF",
+     "url": "https://www.weforum.org/stories/2023/03/global-freshwater-demand-will-exceed-supply-40-by-2030-experts-warn/"
+    }
+   ]
+  },
+  "infra": {
+   "title": "The pipes are the biggest bill",
+   "items": [
+    {
+     "v": "$625B",
+     "l": "US drinking water needs over 20 years, EPA survey",
+     "s": {
+      "name": "Pew, on EPA's 7th DWINSA",
+      "url": "https://www.pew.org/en/research-and-analysis/articles/2023/09/25/more-federal-funding-needed-to-improve-drinking-water-epa-study-finds"
+     }
+    },
+    {
+     "v": "$630.1B",
+     "l": "US wastewater and stormwater needs over 20 years, EPA survey",
+     "s": {
+      "name": "Pew, on EPA's Clean Watersheds Needs Survey",
+      "url": "https://www.pew.org/pl/research-and-analysis/articles/2024/09/05/water-system-upgrades-could-require-more-than-$1-trillion-over-next-20-years"
+     }
+    },
+    {
+     "v": "9.2M",
+     "l": "Lead service lines still in US systems",
+     "s": {
+      "name": "Pew",
+      "url": "https://www.pew.org/ru/research-and-analysis/articles/2023/09/25/more-federal-funding-needed-to-improve-drinking-water-epa-study-finds"
+     }
+    },
+    {
+     "v": "324B m³",
+     "l": "Freshwater the world loses every year, enough for 280 million people",
+     "s": {
+      "name": "World Bank",
+      "url": "https://www.worldbank.org/en/news/press-release/2025/11/04/world-annual-fresh-water-losses-could-supply-280-million-people"
+     }
+    }
+   ],
+   "note": "Distribution and transmission pipe is the largest single piece of the US drinking water need."
+  },
+  "sectors": [
+   {
+    "name": "Data centers",
+    "fig": "Up to 12%",
+    "l": "Share of US electricity data centers could use by 2028",
+    "line": "Direct cooling water was about 17 billion gallons in 2023; the water behind their power is about 12 times larger.",
+    "s": {
+     "name": "Lawrence Berkeley National Laboratory via Latitude Media",
+     "url": "https://www.latitudemedia.com/news/data-centers-hidden-water-footprint-is-linked-to-the-grid/"
+    }
+   },
+   {
+    "name": "Semiconductors",
+    "fig": "+63%",
+    "l": "Ecolab High-Tech organic growth, Q3",
+    "line": "Ultrapure water and water circularity are now strategic inputs for every new fab.",
+    "s": {
+     "name": "Quartr",
+     "url": "https://quartr.com/events/ecolab-ecl-q3-2026_3eHQ1294"
+    }
+   },
+   {
+    "name": "PFAS destruction",
+    "fig": "$2.65B",
+    "l": "Projected PFAS treatment market by 2030",
+    "line": "The market moves from capturing PFAS to destroying them, led by UV, plasma and supercritical oxidation.",
+    "s": {
+     "name": "Cleantech Group",
+     "url": "https://cleantech.com/release/pfas-destruction-technologies-see-surge-in-innovation-and-investment/"
+    }
+   },
+   {
+    "name": "Desalination and reuse",
+    "fig": "+40%",
+    "l": "Growth in global desalination capacity, 2020 to 2025",
+    "line": "Seawater and reuse now supply cities from the Gulf to Baja California.",
+    "s": {
+     "name": "Aquatech, citing IDRA",
+     "url": "https://www.aquatechtrade.com/news/desalination/energy-efficient-desalination-continues-to-drive-water-security-strategies"
+    }
+   }
+  ],
+  "security": [
+   {
+    "headline": "The UN says the world has entered water bankruptcy",
+    "text": "A UN University report in January argued that groundwater depletion, overallocation and pollution have pushed many basins past the point of recovery, and that \"crisis\" no longer describes it.",
+    "s": {
+     "name": "UN University",
+     "url": "https://unu.edu/inweh/news/world-enters-era-of-global-water-bankruptcy"
+    }
+   },
+   {
+    "headline": "The US and Mexico set Colorado River rules for 2027 and 2028",
+    "text": "The two countries signed a formal agreement in September on new operating guidelines for the river that supplies seven US states and northern Mexico.",
+    "s": {
+     "name": "Water Online",
+     "url": "https://www.wateronline.com/hub/bucket/HomeLatestHeadlines?page=10"
+    }
+   },
+   {
+    "headline": "The Gulf runs on desalination",
+    "text": "The Middle East and North Africa host over 40% of global desalination capacity, and the Gulf Cooperation Council countries alone hold 33%.",
+    "s": {
+     "name": "IEA",
+     "url": "https://www.iea.org/commentaries/wired-for-water-how-electrification-is-transforming-desalination"
+    }
+   }
+  ]
+ },
+ "events": [
+  {
+   "when": "Dec 8 to 10",
+   "year": "2026",
+   "name": "UN Water Conference",
+   "where": "Abu Dhabi National Exhibition Centre, UAE",
+   "url": "https://sdgs.un.org/conferences/water2026",
+   "start": "2026-12-08"
+  },
+  {
+   "when": "Feb 8 to 11",
+   "year": "2027",
+   "name": "Produced Water Society 37th Annual Conference",
+   "where": "Houston Marriott Sugar Land, Texas",
+   "url": "https://producedwatersociety.com/annual-events/",
+   "pws": true
+  },
+  {
+   "when": "Mar 9 to 12",
+   "year": "2027",
+   "name": "Aquatech Amsterdam",
+   "where": "RAI Amsterdam, Netherlands",
+   "url": "https://www.aquatechtrade.com/amsterdam"
+  },
+  {
+   "when": "Mar 22",
+   "year": "2027",
+   "name": "World Water Day",
+   "where": "Worldwide",
+   "url": "https://www.unwater.org/"
+  },
+  {
+   "when": "Apr 6 to 8",
+   "year": "2027",
+   "name": "IWA Global Utilities Summit",
+   "where": "Hong Kong",
+   "url": "https://www.iwa-network.org/events/iwa-global-utilities-summit"
+  },
+  {
+   "when": "Apr 11 to 15",
+   "year": "2027",
+   "name": "Produced Water Society, Middle East Edition",
+   "where": "Ad'darah, Dammam, Saudi Arabia",
+   "url": "https://producedwatersociety.com/calendar/",
+   "pws": true
+  },
+  {
+   "when": "Apr 19 to 21",
+   "year": "2027",
+   "name": "Produced Water Society 4th Annual African Conference",
+   "where": "Eko Hotel, Lagos, Nigeria",
+   "url": "https://producedwatersociety.com/4th-annual-african-conference/",
+   "pws": true
+  },
+  {
+   "when": "May 24 to 26",
+   "year": "2027",
+   "name": "Global Water Summit",
+   "where": "Prague Hilton Atrium, Czech Republic",
+   "url": "https://www.watermeetsmoney.com/venue"
+  },
+  {
+   "when": "Jun 1 to 2",
+   "year": "2027",
+   "name": "Produced Water Society, UK Edition",
+   "where": "Ardoe House Hotel and Spa, Aberdeen, Scotland",
+   "url": "https://producedwatersociety.com/calendar/",
+   "pws": true
+  },
+  {
+   "when": "Jun 13 to 16",
+   "year": "2027",
+   "name": "AWWA ACE27",
+   "where": "San Diego Convention Center, California",
+   "url": "https://ace.awwa.org/"
+  },
+  {
+   "when": "Aug 3 to 5",
+   "year": "2027",
+   "name": "Produced Water Society, Permian Basin",
+   "where": "Bush Convention Center, Midland, Texas",
+   "url": "https://producedwatersociety.com/calendar/",
+   "pws": true
+  },
+  {
+   "when": "Late August",
+   "year": "2027",
+   "name": "World Water Week",
+   "where": "Stockholm; theme: water for human and planetary health",
+   "url": "https://siwi.org/news/world-water-week-2026-what-five-days-in-stockholm-told-us-about-the-future-of-water"
+  },
+  {
+   "when": "Sep 16 to 17",
+   "year": "2027",
+   "name": "Produced Water Society, Argentina Edition",
+   "where": "Neuquén and Buenos Aires, Argentina",
+   "url": "https://producedwatersociety.com/calendar/",
+   "pws": true
+  },
+  {
+   "when": "Sep 25 to 29",
+   "year": "2027",
+   "name": "WEFTEC, WEF centennial",
+   "where": "McCormick Place, Chicago",
+   "url": "https://www.weftec.org"
+  },
+  {
+   "when": "Oct 4 to 8",
+   "year": "2027",
+   "name": "IWRA XX World Water Congress",
+   "where": "Istanbul, Türkiye",
+   "url": "https://www.iwra.org/iwra-xx-world-water-congress-2027"
+  },
+  {
+   "when": "November",
+   "year": "2027",
+   "name": "Produced Water Society, Asia Edition",
+   "where": "Host country and venue to be announced",
+   "url": "https://producedwatersociety.com/calendar/",
+   "pws": true
+  },
+  {
+   "when": "Late Nov or Dec",
+   "year": "2027",
+   "name": "Produced Water Society, UAE Edition",
+   "where": "City, venue and dates to be announced",
+   "url": "https://producedwatersociety.com/calendar/",
+   "pws": true
+  }
+ ],
+ "social": {
+  "kicker": "Morning: the wire",
+  "headline": "Storm cut power to Maryland's main water plant",
+  "points": [
+   "1.9M customers on essential use",
+   "Backup plant was down for upkeep",
+   "$155M power upgrades identified"
+  ],
+  "watch": "How WSSC Water funds its Potomac electrical upgrades.",
+  "caption": "A Thanksgiving storm briefly knocked out power at WSSC Water's Potomac plant while its backup was down for maintenance, putting 1.9 million Maryland customers on essential use only for the third time in 2026.\n\nFull edition: watercapitalwire.com\n\n#Water #Utilities #Infrastructure #Resilience #Maryland"
+ },
+ "social_slots": {
+  "afternoon": {
+   "kicker": "Afternoon: the capital",
+   "headline": "€71M loan for reuse in Monastir, Tunisia",
+   "points": [
+    "AfDB board approved Nov 25",
+    "€97.91M total project cost",
+    "Treated water for farms, factories"
+   ],
+   "watch": "Which North African reuse projects get blended finance next.",
+   "caption": "The African Development Bank approved a €71 million loan for a wastewater treatment and reuse complex in Monastir, Tunisia, part of a €97.91 million project that will supply treated water to farms and factories.\n\nMore: watercapitalwire.com\n\n#Water #WaterReuse #ProjectFinance #Tunisia #Africa"
+  },
+  "evening": {
+   "kicker": "Evening: the world",
+   "headline": "Desalination awards set to fall to 4.5M m³/d",
+   "points": [
+    "Down from over 6M m³/d in 2025",
+    "Gulf tenders draw fewer bidders",
+    "Morocco now No. 2 opportunity"
+   ],
+   "watch": "Whether delayed Gulf tenders return in 2027 and 2028.",
+   "caption": "Desalination contract awards are expected to total about 4.5 million cubic meters a day in 2026, down from more than 6 million in 2025, as Gulf tenders draw fewer bidders and build costs rise, the IDRA handbook finds.\n\nMore: watercapitalwire.com\n\n#Water #Desalination #GCC #Morocco #WaterSecurity"
+  }
+ },
+ "place": {
+  "week_of": "Week of November 23",
+  "name": "Basilica Cistern",
+  "location": "Istanbul, Türkiye",
+  "art": "basilica-cistern.svg",
+  "headline": "A sixth century reservoir held up by a forest of 336 columns",
+  "body": [
+   "Built between 532 and 542 under the Eastern Roman emperor Justinian I, the Basilica Cistern, Yerebatan Sarnıcı in Turkish, was one of the city's major water stores, with an estimated capacity of about 100,000 tons. Its roof rests on 336 columns, each 9 meters tall.",
+   "Two carved Medusa heads, identified in 1986, serve as column bases, one upside down and one on its side. The cistern opened to visitors in 1987 after a major restoration, and reopened on July 22, 2022 after a second restoration that began in 2014."
+  ],
+  "facts": [
+   {
+    "v": "532 to 542",
+    "l": "Built under Justinian I"
+   },
+   {
+    "v": "336",
+    "l": "Columns, each 9 m tall"
+   },
+   {
+    "v": "100,000 t",
+    "l": "Estimated water capacity"
+   }
+  ],
+  "visit": "In Istanbul's historic peninsula; open as a museum. Check opening hours and tickets before you go.",
+  "why": "Istanbul hosts the IWRA World Water Congress in October 2027, and this is the city's oldest lesson in storing water close to demand.",
+  "sources": [
+   {
+    "name": "Daily Sabah, Nov 18, 2026",
+    "url": "https://www.dailysabah.com/turkiye/istanbul/istanbuls-basilica-cistern-preserves-centuries-of-history"
+   }
+  ],
+  "art_alt": "Illustration of the Basilica Cistern: rows of lit stone columns and arches standing in still underground water"
+ }
+}
